@@ -1,0 +1,60 @@
+title: 'Nelson Silva | Developer'
+description: 'Career of Nelson Silva'
+keywords: 'nelsonsilvadev, nelsonsilva, nelson silva, frontend, developer, profile, resume, portfolio, blog'
+url: 'https://nelsonsilvadev.com/'
+baseurl: '/'
+
+development: false
+
+organization:
+  name: 'Caffeine Algorithm'
+  email: 'contacto@caffeinealgorithm.com'
+  youtube_id: 'UCdt_qK8rmpxrq942ZFIqxvQ'
+  youtube_name: 'CaffeineAlgorithm'
+  linkedin: 'caffeinealgorithm'
+  instagram: 'caffeinealgorithm'
+  twitch: 'caffeinealgorithm'
+  github: 'caffeinealgorithm'
+  website: 'https://caffeinealgorithm.com/'
+
+author:
+  name: 'Nelson Silva'
+  username: 'nelsonsilvadev'
+  date_of_birth: 'July 5, 1995'
+  phone_number: '+351913416022'
+  location: 'Porto, Portugal'
+  email: 'contact@nelsonsilvadev.com'
+  bio: 'A human. Being. Coffee lover.'
+  linkedin: 'nelsonsilvadev'
+  github: 'nelsonsilvadev'
+  instagram: 'nelsonsilvadev'
+  twitter: 'nelsonsilvadev'
+  website: 'https://nelsonsilvadev.com/'
+
+google:
+  analytics: 'UA-76965623-2'
+  verify: 'ajVPbFZ5Vbuj0FC0vgFM27c4n0WhIuqqUVTlaJuaKVk'
+  ad_client: 'ca-pub-9627952229249296'
+
+defaults:
+  - scope:
+      path: ''
+      type: 'posts'
+    values:
+      layout: 'post'
+
+destination: _site
+paginate: 6
+paginate_path: /blog/page/:num/
+permalink: /blog/:year/:title/
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+plugins: ['jekyll-paginate']
+exclude: ['README.md']
