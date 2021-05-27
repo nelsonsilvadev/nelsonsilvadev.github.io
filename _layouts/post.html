@@ -1,0 +1,119 @@
+---
+layout: default
+---
+
+<section class="blog" id="navblog">
+  <header class="head">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-7 col-lg-12">
+          <h2 class="title">Blog</h2>
+          <h4 class="sub-title">I Write My Thoughts Here</h4>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="padding-block">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-lg-8 padding-lr-45">
+          {% assign month = page.date | date: "%-m" %} {% capture months %} {%
+          case month %} {% when '1' %}January {% when '2' %}February {% when '3'
+          %}March {% when '4' %}April {% when '5' %}May {% when '6' %}June {%
+          when '7' %}July {% when '8' %}August {% when '9' %}September {% when
+          '10' %}October {% when '11' %}November {% when '12' %}December {%
+          endcase %} {% endcapture %}
+          <div class="post">
+            <h3 class="title title-blog">{{ page.title }}</h3>
+
+            <div class="entry-byline">
+              <i class="fa fa-user"></i>
+              <span class="entry-author right-border">
+                <a href="#" rel="author">
+                  <span>{{ site.author.name }}</span>
+                </a>
+              </span>
+              <i class="fa fa-clock-o"></i>
+              <time
+                datetime="{{ page.date | date: '%-d' }} {{ months }} | {{
+                  page.date | date: '%Y'
+                }}"
+                class="entry-published right-border"
+                >{{ page.date | date: '%-d' }} {{ months }} | {{ page.date |
+                date: '%Y' }}</time
+              >
+              <i class="fa fa-tags"></i>
+              <span class="comments-link"
+                >{% for category in page.categories %}<a
+                  href="{{ site.baseurl }}categories/#{{ category }}"
+                  >{{ category }}</a
+                >
+                {% endfor %}</span
+              >
+
+              {% include share.html %}
+            </div>
+
+            <p>{{ content }}</p>
+
+            <div class="clearfix"></div>
+          </div>
+
+          <div class="post-pagination">
+            {% if page.previous.url %}
+            <a
+              href="{{ page.previous.url }}"
+              class="btn btn-color-hover hover-animate pre"
+              >Previous post</a
+            >
+            {% endif %} {% if page.next.url %}
+            <a
+              href="{{ page.next.url }}"
+              class="btn btn-color-hover hover-animate next"
+              >Next post</a
+            >
+            {% endif %}
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-lg-4 widget-blog padding-lr-45">
+          <aside class="widget widget_categories">
+            <h3 class="widget-title">Categories</h3>
+            <ul>
+              {% for category in site.categories limit:10 %} {% capture
+              category_name %}{{ category | first }}{% endcapture %}
+              <li class="cat-item">
+                <a href="{{ site.baseurl }}categories/#{{ category_name }}"
+                  >{{ category_name }}</a
+                >
+              </li>
+              {% endfor %}
+            </ul>
+          </aside>
+
+          <aside class="widget widget_recent_entries">
+            <h3 class="widget-title">Latest Posts</h3>
+            <ul>
+              {% for post in site.posts limit:3 %} {% assign month = post.date |
+              date: "%-m" %} {% capture months %} {% case month %} {% when '1'
+              %}January {% when '2' %}February {% when '3' %}March {% when '4'
+              %}April {% when '5' %}May {% when '6' %}June {% when '7' %}July {%
+              when '8' %}August {% when '9' %}September {% when '10' %}October
+              {% when '11' %}November {% when '12' %}December {% endcase %} {%
+              endcapture %}
+              <li>
+                <a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}"
+                  >{{ post.title }}<br /><span
+                    >{{ post.date | date: '%-d' }} {{ months }} | {{ post.date |
+                    date: '%Y' }}</span
+                  ></a
+                >
+              </li>
+              {% endfor %}
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

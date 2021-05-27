@@ -1,0 +1,106 @@
+---
+title: Blog
+layout: default
+---
+
+<section class="blog" id="navblog">
+  <header class="head" style="max-height: 128px">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+          <h2 class="title">Blog</h2>
+          <h4 class="sub-title">I Write My Thoughts Here</h4>
+        </div>
+        <!-- <div class="col-lg-9 col-sm-6 top-banner" style="max-height: 72px !important">
+        </div> -->
+      </div>
+    </div>
+  </header>
+
+  <div class="padding-block">
+    <div class="container">
+      <div class="row" style="margin-top: -35px">
+        <div class="col-xs-12 col-sm-12 col-lg-8 padding-bottom">
+          {% for post in paginator.posts %} {% assign month = post.date | date:
+          "%-m" %} {% capture months %} {% case month %} {% when '1' %}January
+          {% when '2' %}February {% when '3' %}March {% when '4' %}April {% when
+          '5' %}May {% when '6' %}June {% when '7' %}July {% when '8' %}August
+          {% when '9' %}September {% when '10' %}October {% when '11' %}November
+          {% when '12' %}December {% endcase %} {% endcapture %}
+          <div class="post">
+            <div class="entry-byline">
+              <time
+                datetime="{{ post.date | date: '%-d' }} {{ months }} | {{
+                  post.date | date: '%Y'
+                }}"
+                class="entry-published right-border"
+                >{{ months }} {{ post.date | date: '%-d' }}, {{ post.date |
+                date: '%Y' }}</time
+              >
+              <span class="comments-link"
+                >{% for category in post.categories %}<a
+                  href="{{ site.baseurl }}categories/#{{ category }}"
+                >
+                  {{ category }}{% unless forloop.last %},&nbsp;{% endunless %}
+                </a>
+                {% endfor %}</span
+              >
+            </div>
+
+            <h3 class="title title-blog">
+              <a
+                href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}"
+                title="{{ post.title }}"
+                >{{ post.title }}</a
+              >
+            </h3>
+
+            <p class="content-blog">
+              {{ post.content | strip_html | truncatewords: 45 }}
+            </p>
+          </div>
+          {% endfor %} {% if paginator.previous_page or paginator.next_page %}
+          {% include pagination.html %} {% endif %}
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-lg-4 widget-blog">
+          <aside class="widget widget_categories">
+            <h3 class="widget-title">Categories</h3>
+            <ul>
+              {% for category in site.categories limit:10 %} {% capture
+              category_name %}{{ category | first }}{% endcapture %}
+              <li class="cat-item">
+                <a href="{{ site.baseurl }}categories/#{{ category_name }}"
+                  >{{ category_name }}</a
+                >
+              </li>
+              {% endfor %}
+            </ul>
+          </aside>
+
+          <aside class="widget widget_recent_entries">
+            <h3 class="widget-title">Latest Posts</h3>
+            <ul>
+              {% for post in site.posts limit:3 %} {% assign month = post.date |
+              date: "%-m" %} {% capture months %} {% case month %} {% when '1'
+              %}January {% when '2' %}February {% when '3' %}March {% when '4'
+              %}April {% when '5' %}May {% when '6' %}June {% when '7' %}July {%
+              when '8' %}August {% when '9' %}September {% when '10' %}October
+              {% when '11' %}November {% when '12' %}December {% endcase %} {%
+              endcapture %}
+              <li>
+                <a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}"
+                  >{{ post.title }}<br /><span
+                    >{{ post.date | date: '%-d' }} {{ months }} | {{ post.date |
+                    date: '%Y' }}</span
+                  ></a
+                >
+              </li>
+              {% endfor %}
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
