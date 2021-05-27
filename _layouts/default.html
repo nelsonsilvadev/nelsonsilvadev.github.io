@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+
+  <body>
+    {% include navigation.html %}
+
+    <div id="contents" class="contents">
+      <div id="wrapper" class="wrapper-card">
+        {% include header.html %} {{ content }} {% include footer.html %}
+      </div>
+    </div>
+
+    <a href="#" class="btn hover-animate scrollToTop">
+      <i class="fa fa-angle-up"></i>
+    </a>
+
+    {% include scripts.html %}
+  </body>
+</html>

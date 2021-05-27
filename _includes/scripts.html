@@ -1,0 +1,169 @@
+<script
+  type="text/javascript"
+  data-cfasync="false"
+  src="{{
+    'assets/js/jquery-1.11.2.min.js' | prepend: site.baseurl | prepend: site.url
+  }}"
+></script>
+<script
+  type="text/javascript"
+  data-cfasync="false"
+  src="{{
+    'assets/js/bootstrap.min.js'
+      | prepend: site.baseurl
+      | prepend: site.url
+  }}"
+></script>
+<script
+  type="text/javascript"
+  data-cfasync="false"
+  src="{{
+    'assets/js/jquery.appear.js' | prepend: site.baseurl | prepend: site.url
+  }}"
+></script>
+<script
+  type="text/javascript"
+  data-cfasync="false"
+  src="{{
+    'assets/js/jquery.mixitup.min.js'
+      | prepend: site.baseurl
+      | prepend: site.url
+  }}"
+></script>
+<script
+  type="text/javascript"
+  data-cfasync="false"
+  src="{{
+    'assets/js/owl.carousel.min.js' | prepend: site.baseurl | prepend: site.url
+  }}"
+></script>
+<script
+  type="text/javascript"
+  data-cfasync="false"
+  src="{{
+    'assets/js/jquery.flexslider-min.js'
+      | prepend: site.baseurl
+      | prepend: site.url
+  }}"
+></script>
+<script
+  type="text/javascript"
+  data-cfasync="false"
+  src="{{
+    'assets/js/jquery.inview.min.js' | prepend: site.baseurl | prepend: site.url
+  }}"
+></script>
+<script
+  type="text/javascript"
+  data-cfasync="false"
+  src="{{
+    'assets/js/jquery.knob.min.js' | prepend: site.baseurl | prepend: site.url
+  }}"
+></script>
+<script
+  type="text/javascript"
+  data-cfasync="false"
+  src="{{
+    'assets/js/jquery.cookie.js' | prepend: site.baseurl | prepend: site.url
+  }}"
+></script>
+<script
+  type="text/javascript"
+  data-cfasync="false"
+  src="{{
+    'assets/js/jquery.countTo.js' | prepend: site.baseurl | prepend: site.url
+  }}"
+></script>
+<script
+  type="text/javascript"
+  data-cfasync="false"
+  src="{{
+    'assets/fancybox/lib/jquery.mousewheel-3.0.6.pack.js'
+      | prepend: site.baseurl
+      | prepend: site.url
+  }}"
+></script>
+<script
+  type="text/javascript"
+  data-cfasync="false"
+  src="{{
+    'assets/fancybox/source/jquery.fancybox.pack.js?v=2.1.5'
+      | prepend: site.baseurl
+      | prepend: site.url
+  }}"
+></script>
+<script
+  type="text/javascript"
+  data-cfasync="false"
+  src="{{
+    'assets/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5'
+      | prepend: site.baseurl
+      | prepend: site.url
+  }}"
+></script>
+<script
+  type="text/javascript"
+  data-cfasync="false"
+  src="{{
+    'assets/js/portfolio_scripts.js' | prepend: site.baseurl | prepend: site.url
+  }}"
+></script>
+<script
+  type="text/javascript"
+  data-cfasync="false"
+  src="{{
+    'assets/js/jquery.ratyli.js' | prepend: site.baseurl | prepend: site.url
+  }}"
+></script>
+<script
+  type="text/javascript"
+  data-cfasync="false"
+  src="{{ 'assets/js/stickUp.js' | prepend: site.baseurl | prepend: site.url }}"
+></script>
+<script
+  type="text/javascript"
+  data-cfasync="false"
+  src="{{
+    'assets/js/modernizr.custom.js' | prepend: site.baseurl | prepend: site.url
+  }}"
+></script>
+<script
+  type="text/javascript"
+  data-cfasync="false"
+  src="{{
+    'assets/js/prefixfree.min.js' | prepend: site.baseurl | prepend: site.url
+  }}"
+></script>
+<script
+  type="text/javascript"
+  data-cfasync="false"
+  src="{{
+    'assets/js/modernizr.js' | prepend: site.baseurl | prepend: site.url
+  }}"
+></script>
+<script
+  type="text/javascript"
+  data-cfasync="false"
+  src="{{ 'assets/js/main.js' | prepend: site.baseurl | prepend: site.url }}"
+></script>
+
+<script
+  type="text/javascript"
+  data-cfasync="false"
+  src="https://apis.google.com/js/platform.js"
+></script>
+
+{% if site.development == false %} {% if site.google.analytics %}
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id={{ site.google.analytics }}"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+  gtag('config', '{{ site.google.analytics }}');
+</script>
+{% endif %} {% endif %}

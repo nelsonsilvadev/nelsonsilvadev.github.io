@@ -1,0 +1,175 @@
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="author" content="{{ site.author.name }}" />
+  <meta name="organization" content="{{ site.organization.name }}" />
+  <meta name="description" content="{{ site.description }}" />
+  <meta name="keywords" content="{{ site.keywords }}" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1"
+  />
+
+  {% if site.development == false %} {% if site.google.verify %}
+  <meta name="google-site-verification" content="{{ site.google.verify }}" />
+  {% endif %} {% endif %}
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="{{ site.title }}" />
+  <meta name="twitter:description" content="{{ site.description }}" />
+
+  <title>
+    {% if page.title %}{{ site.author.name }} | {{ page.title }}{% else %}{{
+    site.title }}{% endif %}
+  </title>
+
+  <link
+    rel="shortcut icon"
+    href="{{
+      'assets/img/favicon.png' | prepend: site.baseurl | prepend: site.url
+    }}"
+  />
+
+  <link
+    rel="canonical"
+    href='{{ page.url | replace:"index.html", "" | prepend: site.baseurl | prepend: site.url }}'
+  />
+
+  <link
+    type="text/css"
+    rel="stylesheet"
+    media="all"
+    href="{{
+      'assets/fonts/font-awesome/css/font-awesome.min.css'
+        | prepend: site.baseurl
+        | prepend: site.url
+    }}"
+  />
+  <link
+    type="text/css"
+    rel="stylesheet"
+    media="all"
+    href="{{
+      'assets/css/bootstrap.min.css'
+        | prepend: site.baseurl
+        | prepend: site.url
+    }}"
+  />
+  <link
+    type="text/css"
+    rel="stylesheet"
+    media="screen"
+    href="{{
+      'assets/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5'
+        | prepend: site.baseurl
+        | prepend: site.url
+    }}"
+  />
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="{{
+      'assets/fancybox/source/jquery.fancybox.css?v=2.1.5'
+        | prepend: site.baseurl
+        | prepend: site.url
+    }}"
+    media="screen"
+  />
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="{{
+      'assets/css/owl.carousel.css' | prepend: site.baseurl | prepend: site.url
+    }}"
+  />
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="{{
+      'assets/css/slider.css' | prepend: site.baseurl | prepend: site.url
+    }}"
+  />
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="{{
+      'assets/css/owl.theme.css' | prepend: site.baseurl | prepend: site.url
+    }}"
+  />
+  <link
+    type="text/css"
+    rel="stylesheet"
+    media="all"
+    href="{{
+      'assets/css/animate.css' | prepend: site.baseurl | prepend: site.url
+    }}"
+  />
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="{{
+      'assets/css/stickup.css' | prepend: site.baseurl | prepend: site.url
+    }}"
+  />
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="{{
+      'assets/css/component.css' | prepend: site.baseurl | prepend: site.url
+    }}"
+  />
+  <link
+    type="text/css"
+    rel="stylesheet"
+    media="all"
+    href="{{
+      'assets/css/syntax.css' | prepend: site.baseurl | prepend: site.url
+    }}"
+  />
+  <link
+    type="text/css"
+    rel="stylesheet"
+    media="all"
+    href="{{
+      'assets/css/style.css' | prepend: site.baseurl | prepend: site.url
+    }}"
+  />
+  <link
+    type="text/css"
+    rel="stylesheet"
+    media="all"
+    href="{{
+      'assets/css/switcher.css' | prepend: site.baseurl | prepend: site.url
+    }}"
+  />
+  <link
+    type="text/css"
+    rel="stylesheet"
+    media="all"
+    href="{{
+      'assets/css/theme.css' | prepend: site.baseurl | prepend: site.url
+    }}"
+  />
+  <link
+    type="text/css"
+    rel="stylesheet"
+    media="all"
+    href="{{
+      'assets/css/respons.css' | prepend: site.baseurl | prepend: site.url
+    }}"
+  />
+
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Questrial"
+  />
+
+  {% if site.google.ad_client %} {% if site.development == false %}
+  <script
+    data-ad-client="{{ site.google.ad_client }}"
+    async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+  ></script>
+  {% endif %} {% endif %}
+</head>
