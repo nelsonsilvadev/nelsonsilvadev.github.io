@@ -1,9 +1,8 @@
-/* Slider
-/*-----------------------------------------------------------------------------------*/
 .flex-container a:active,
 .flexslider a:active {
   outline: none;
 }
+
 .slides,
 .flex-control-nav,
 .flex-direction-nav {
@@ -11,11 +10,11 @@
   padding: 0;
   list-style: none;
 }
-/* FlexSlider Necessary Styles
-*********************************/
+
 .flexslider .slides > li {
   display: none;
 }
+
 .slides:after {
   content: '.';
   display: block;
@@ -24,10 +23,11 @@
   line-height: 0;
   height: 0;
 }
-/* Direction Nav */
+
 .flex-direction-nav li {
   display: inline-block;
 }
+
 .flex-direction-nav li a {
   width: 35px;
   height: 35px;
@@ -48,22 +48,25 @@
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-/* Control Nav */
+
 .flex-control-nav {
   width: 100%;
   position: absolute;
   bottom: -30px;
   text-align: center;
 }
+
 .flex-control-nav li {
   margin: 0 0 0 5px;
   display: inline-block;
   zoom: 1;
   *display: inline;
 }
+
 .flex-control-nav li:first-child {
   margin: 0;
 }
+
 .flex-control-nav li a {
   width: 13px;
   height: 13px;
@@ -71,13 +74,16 @@
   cursor: pointer;
   text-indent: -9999px;
 }
+
 .flex-control-nav li a:hover {
   background-position: 0 -13px;
 }
+
 .flex-control-nav li a.active {
   background-position: 0 -26px;
   cursor: default;
 }
+
 .flex-control-nav {
   display: none;
 }
