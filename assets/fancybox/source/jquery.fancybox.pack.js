@@ -1,4 +1,3 @@
-/*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
 (function (r, G, f, v) {
   var J = f('html'),
     n = f(r),
@@ -89,8 +88,7 @@
           '></iframe>',
         error:
           '<p class="fancybox-error">The requested content cannot be loaded.<br/>Please try again later.</p>',
-        closeBtn:
-          '<a title="Close" class="fancybox-item fancybox-close" href="javascript:;"></a>',
+        closeBtn: '',
         next: '<a title="Next" class="fancybox-nav fancybox-next" href="javascript:;"><span></span></a>',
         prev: '<a title="Previous" class="fancybox-nav fancybox-prev" href="javascript:;"><span></span></a>',
       },

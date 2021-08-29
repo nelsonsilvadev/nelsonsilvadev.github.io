@@ -3,7 +3,6 @@
     options = options || {};
 
     return $(this).each(function () {
-      // set options for current element
       var settings = $.extend(
         {},
         $.fn.countTo.defaults,
@@ -17,11 +16,9 @@
         options
       );
 
-      // how many times to update the value, and how much to increment the value on each update
       var loops = Math.ceil(settings.speed / settings.refreshInterval),
         increment = (settings.to - settings.from) / loops;
 
-      // references & variables that will change with each update
       var self = this,
         $self = $(this),
         loopCount = 0,
@@ -30,13 +27,11 @@
 
       $self.data('countTo', data);
 
-      // if an existing interval can be found, clear it first
       if (data.interval) {
         clearInterval(data.interval);
       }
       data.interval = setInterval(updateTimer, settings.refreshInterval);
 
-      // initialize the element with the starting value
       render(value);
 
       function updateTimer() {
@@ -50,7 +45,6 @@
         }
 
         if (loopCount >= loops) {
-          // remove the interval
           $self.removeData('countTo');
           clearInterval(data.interval);
           value = settings.to;
@@ -69,14 +63,14 @@
   };
 
   $.fn.countTo.defaults = {
-    from: 0, // the number the element should start at
-    to: 0, // the number the element should end at
-    speed: 1000, // how long it should take to count between the target numbers
-    refreshInterval: 100, // how often the element should be updated
-    decimals: 0, // the number of decimal places to show
-    formatter: formatter, // handler for formatting the value before rendering
-    onUpdate: null, // callback method for every time the element is updated
-    onComplete: null, // callback method for when the element finishes updating
+    from: 0,
+    to: 0,
+    speed: 1000,
+    refreshInterval: 100,
+    decimals: 0,
+    formatter: formatter,
+    onUpdate: null,
+    onComplete: null,
   };
 
   function formatter(value, settings) {

@@ -1,17 +1,9 @@
 $(document).ready(function () {
   'use strict';
 
-  /*
-     ----------------------------------------------------------------------
-     Portfolio
-     ----------------------------------------------------------------------
-     */
-
-  // Instantiate MixItUp:
   $('#portfolio-grid').mixItUp();
 
   $('#portfolio-grid').on('mixEnd', function (e, state) {
-    // console.log('event mixEnd activeFilter=' + state.activeFilter);
     $('.fancybox').attr('rel', '');
     $(state.activeFilter + ' a').attr('rel', 'visiblegallery');
   });
@@ -41,4 +33,4 @@ $(document).ready(function () {
       .find('.podrt-desc')
       .attr('id', 'work-' + i);
   });
-}); // End $(document).ready(function(){
+});

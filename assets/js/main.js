@@ -1,66 +1,33 @@
 $(document).ready(function () {
   'use strict';
 
-  /*
-    ----------------------------------------------------------------------
-    Menu-navigation
-    ----------------------------------------------------------------------
-  */
-
   if ($('#contents').hasClass('contents')) {
     jQuery(function ($) {
       $(document).ready(function () {
-        $('.navbar-wrapper').stickUp({
-          // parts: {
-          //   0: 'navhome',
-          //   1: 'navprofile',
-          //   2: 'navresume',
-          //   3: 'navportfolio',
-          //   4: 'navblog',
-          // },
-          // itemClass: 'menuItem',
-          // itemHover: 'active',
-          // topMargin: 'auto',
-        });
+        $('.navbar-wrapper').stickUp({});
       });
     });
   }
 
-  // $('.navigation-top').hide();
-  // $(function () {
-  //   $(window).scroll(function (event) {
-  //     if ($(this).scrollTop() > 630) {
-  //       $('.navigation-top').show();
-  //       $('.navigation-top').fadeIn();
-  //       $('.navigation-top').addClass('fixed');
-  //     } else {
-  //       $('.navigation-top').removeClass('fixed');
-  //       $('.navigation-top').fadeOut();
-  //       $('.navigation-top').hide();
-  //     }
-  //   });
-  // });
-
   var linkNav = document.querySelectorAll('[href^="#nav"]'),
     V = 1000;
+
   for (var i = 0; i < linkNav.length; i++) {
     linkNav[i].onclick = function (event) {
       event.preventDefault();
+
       if ($(window).width() < 769) {
         var hscroll = 0;
       } else {
         var hscroll = 50;
       }
+
       var id = $(this).attr('href'),
         top = $(id).offset().top;
+
       $('body,html').animate({ scrollTop: top - hscroll }, V);
     };
   }
-  /*
-    ----------------------------------------------------------------------
-    Animated menu
-    ----------------------------------------------------------------------
-  */
 
   $('.menu .menu-img').on({
     mouseenter: function () {
@@ -82,20 +49,9 @@ $(document).ready(function () {
     },
   });
 
-  /*
-    ----------------------------------------------------------------------
-    Preloader
-    ----------------------------------------------------------------------
-  */
   $('.loader').delay(400).fadeOut();
   $('.animationload').delay(400).fadeOut('fast');
 
-  /*
-    ----------------------------------------------------------------------
-    Scroll
-    ----------------------------------------------------------------------
-  */
-  //Check to see if the window is top if not then display button
   $(window).scroll(function () {
     if ($(this).scrollTop() > 400) {
       $('.scrollToTop').fadeIn();
@@ -103,22 +59,19 @@ $(document).ready(function () {
       $('.scrollToTop').fadeOut();
     }
   });
-  //Click event to scroll to top
+
   $('.scrollToTop').on('click', function () {
     $('html, body').animate({ scrollTop: 0 }, 800);
     return false;
   });
 
-  /*
-    ----------------------------------------------------------------------
-    Animation
-    ----------------------------------------------------------------------
-  */
   $('.animated').appear(function () {
     var elem = $(this);
     var animation = elem.data('animation');
+
     if (!elem.hasClass('visible')) {
       var animationDelay = elem.data('animation-delay');
+
       if (animationDelay) {
         setTimeout(function () {
           elem.addClass(animation + ' visible');
@@ -129,11 +82,6 @@ $(document).ready(function () {
     }
   });
 
-  /*
-    ----------------------------------------------------------------------
-    Progress Bars
-    ----------------------------------------------------------------------
-  */
   $('.progress-bar').on('inview', function (event, isInView) {
     if (isInView) {
       $(this).css('width', function () {
@@ -146,8 +94,8 @@ $(document).ready(function () {
     if (isInView) {
       var $this = $(this);
       var myVal = $this.attr('value');
-      //var color = $this.attr("data-color"); // Uncomment after color selection
-      var color = $.cookie('colour-skills'); // Delete after color selection
+      var color = $.cookie('colour-skills');
+
       $this.knob({
         readOnly: true,
         width: 160,
@@ -161,6 +109,7 @@ $(document).ready(function () {
           $(this.i).val(this.cv + '%');
         },
       });
+
       $({
         value: 0,
       }).animate(
@@ -179,13 +128,8 @@ $(document).ready(function () {
     $(this).unbind(event);
   });
 
-  /*
-    ----------------------------------------------------------------------
-    Sliders
-    ----------------------------------------------------------------------
-  */
   $('#education-slider').owlCarousel({
-    navigation: true, // Show next and prev buttons
+    navigation: true,
     navigationText: [
       '<i class="fa fa-angle-left"></i>',
       '<i class="fa fa-angle-right"></i>',
@@ -197,7 +141,7 @@ $(document).ready(function () {
   });
 
   $('#work-slider').owlCarousel({
-    navigation: true, // Show next and prev buttons
+    navigation: true,
     navigationText: [
       '<i class="fa fa-angle-left"></i>',
       '<i class="fa fa-angle-right"></i>',
@@ -208,7 +152,6 @@ $(document).ready(function () {
     singleItem: true,
   });
 
-  /*--------- Clients slider -------------*/
   var owl = $('#owl-clients');
 
   owl.owlCarousel({
@@ -231,21 +174,15 @@ $(document).ready(function () {
 
   $('.owl-pagination').fadeOut();
 
-  /*--------- Testimonials slider -------------*/
-
   $('.flexslider').flexslider({
     animation: 'fade',
     slideshow: false,
   });
 
-  /*
-    ----------------------------------------------------------------------
-    Animated Counter
-    ----------------------------------------------------------------------
-  */
   $('.count').each(function () {
     $('.total-numbers .sum').appear(function () {
       var counter = $(this).html();
+
       $(this).countTo({
         from: 0,
         to: counter,
@@ -254,12 +191,6 @@ $(document).ready(function () {
       });
     });
   });
-
-  /*
-    ----------------------------------------------------------------------
-    Style contact form
-    ----------------------------------------------------------------------
-  */
 
   $('.style-open-form').on('click', function (el) {
     el.preventDefault();
@@ -273,11 +204,6 @@ $(document).ready(function () {
 
   $('.ratyli').ratyli();
 
-  /*
-    ----------------------------------------------------------------------
-    Calendar
-    ----------------------------------------------------------------------
-  */
   if ($('#calendar').hasClass('fc-calendar-container')) {
     $('#calendar').calendario();
 
@@ -341,6 +267,7 @@ $(document).ready(function () {
     $('#custom-next').on('click', function () {
       cal.gotoNextMonth(updateMonthYear);
     });
+
     $('#custom-prev').on('click', function () {
       cal.gotoPreviousMonth(updateMonthYear);
     });
@@ -380,12 +307,12 @@ $(document).ready(function () {
     document.getElementById('day').innerHTML = day;
     document.getElementById('month').innerHTML = monthhtml;
   }
+
   function updateMonthYear() {
     $month.html(cal.getMonthName());
     $year.html(cal.getYear());
   }
 
-  // just an example..
   function showEvents($contentEl, dateProperties) {
     hideEvents();
 
@@ -412,8 +339,10 @@ $(document).ready(function () {
 
   function hideEvents() {
     var $events = $('#custom-content-reveal');
+
     if ($events.length > 0) {
       $events.css('top', '100%');
+
       Modernizr.csstransitions
         ? $events.on(transEndEventName, function () {
             $(this).remove();
@@ -422,4 +351,3 @@ $(document).ready(function () {
     }
   }
 });
-// End $(document).ready(function()
