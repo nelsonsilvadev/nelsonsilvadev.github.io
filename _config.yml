@@ -37,11 +37,6 @@ google:
   verify: 'ajVPbFZ5Vbuj0FC0vgFM27c4n0WhIuqqUVTlaJuaKVk'
   ad_client: 'ca-pub-9627952229249296'
 
-features:
-  hotjar:
-    enable: true
-    id: 2360104
-
 defaults:
   - scope:
       path: ''
