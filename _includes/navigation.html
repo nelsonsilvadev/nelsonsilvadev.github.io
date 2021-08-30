@@ -13,6 +13,7 @@
             <li class="menuItem {% if active[1] == null %}active{% endif %}">
               <a href="{{ site.url }}">Profile</a>
             </li>
+
             <li
               class="menuItem {% if active[1] == 'resume' %}active{% endif %}"
             >
@@ -20,26 +21,41 @@
                 href="{{
                   'resume' | prepend: site.baseurl | prepend: site.url
                 }}"
-                >Resume</a
               >
+                Resume
+              </a>
             </li>
+
             <li
-              class="menuItem {% if active[1] == 'portfolio' %}active{% endif %}"
+              class="
+                menuItem
+                {%
+                if
+                active[1]
+                ==
+                'portfolio'
+                %}active{%
+                endif
+                %}
+              "
             >
               <a
                 href="{{
                   'portfolio' | prepend: site.baseurl | prepend: site.url
                 }}"
-                >Portfolio</a
               >
+                Portfolio
+              </a>
             </li>
+
             <li class="menuItem {% if active[1] == 'blog' %}active{% endif %}">
               <a
                 href="{{
                   'blog' | prepend: site.baseurl | prepend: site.url
                 }}"
-                >Blog</a
               >
+                Blog
+              </a>
             </li>
           </ul>
         </div>

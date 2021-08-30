@@ -3,27 +3,30 @@
   <a
     class="btn hover-animate btn-color-hover previous"
     href="{{ 'blog' | prepend: site.baseurl }}"
-    >←</a
   >
+    ←
+  </a>
   {% else %}
   <a
     class="btn hover-animate btn-color-hover previous"
     href="{{ 'blog' | prepend: site.baseurl }}/page/{{
       paginator.previous_page
     }}/"
-    >←</a
   >
+    ←
+  </a>
   {% endif %} {% endif %}
 
-  <span class="page"
-    >Page {{ paginator.page }} of {{ paginator.total_pages }}</span
-  >
+  <span class="page">
+    Page {{ paginator.page }} of {{ paginator.total_pages }}
+  </span>
 
   {% if paginator.next_page %}
   <a
     class="btn hover-animate btn-color-hover next"
     href="{{ 'blog' | prepend: site.baseurl }}/page/{{ paginator.next_page }}/"
-    >→</a
   >
+    →
+  </a>
   {% endif %}
 </div>

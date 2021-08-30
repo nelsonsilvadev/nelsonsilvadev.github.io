@@ -13,6 +13,7 @@ layout: default
       </div>
     </div>
   </header>
+
   <div class="padding-block">
     <div class="container">
       <div class="row">
@@ -24,7 +25,7 @@ layout: default
           '10' %}October {% when '11' %}November {% when '12' %}December {%
           endcase %} {% endcapture %}
           <div class="post">
-            <h3 class="title title-blog">{{ page.title }}</h3>
+            <h3 class="title title-post">{{ page.title }}</h3>
 
             <div class="entry-byline">
               <i class="fa fa-user"></i>
@@ -33,29 +34,31 @@ layout: default
                   <span>{{ site.author.name }}</span>
                 </a>
               </span>
+
               <i class="fa fa-clock-o"></i>
               <time
-                datetime="{{ page.date | date: '%-d' }} {{ months }} | {{
+                datetime="{{ months }} {{ page.date | date: '%-d' }}, {{
                   page.date | date: '%Y'
                 }}"
                 class="entry-published right-border"
-                >{{ page.date | date: '%-d' }} {{ months }} | {{ page.date |
-                date: '%Y' }}</time
               >
+                {{ months }} {{ page.date | date: '%-d' }}, {{ page.date | date:
+                '%Y' }}
+              </time>
+
               <i class="fa fa-tags"></i>
-              <span class="comments-link"
-                >{% for category in page.categories %}<a
-                  href="{{ site.baseurl }}categories/#{{ category }}"
-                  >{{ category }}</a
-                >
-                {% endfor %}</span
-              >
+              <span class="comments-link">
+                {% for category in page.categories %}
+                <a href="{{ site.baseurl }}categories/#{{ category }}"
+                  >{{ category }}
+                </a>
+                {% endfor %}
+              </span>
 
               {% include share.html %}
             </div>
 
             <p>{{ content }}</p>
-
             <div class="clearfix"></div>
           </div>
 
@@ -64,14 +67,16 @@ layout: default
             <a
               href="{{ page.previous.url }}"
               class="btn btn-color-hover hover-animate pre"
-              >Previous post</a
             >
+              Previous
+            </a>
             {% endif %} {% if page.next.url %}
             <a
               href="{{ page.next.url }}"
               class="btn btn-color-hover hover-animate next"
-              >Next post</a
             >
+              Next
+            </a>
             {% endif %}
           </div>
         </div>
@@ -83,9 +88,9 @@ layout: default
               {% for category in site.categories limit:10 %} {% capture
               category_name %}{{ category | first }}{% endcapture %}
               <li class="cat-item">
-                <a href="{{ site.baseurl }}categories/#{{ category_name }}"
-                  >{{ category_name }}</a
-                >
+                <a href="{{ site.baseurl }}categories/#{{ category_name }}">
+                  {{ category_name }}
+                </a>
               </li>
               {% endfor %}
             </ul>
@@ -102,12 +107,12 @@ layout: default
               {% when '11' %}November {% when '12' %}December {% endcase %} {%
               endcapture %}
               <li>
-                <a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}"
-                  >{{ post.title }}<br /><span
-                    >{{ post.date | date: '%-d' }} {{ months }} | {{ post.date |
-                    date: '%Y' }}</span
-                  ></a
-                >
+                <a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}">
+                  {{ post.title }}<br /><span>
+                    {{ months }} {{ post.date | date: '%-d' }}, {{ post.date |
+                    date: '%Y' }}
+                  </span>
+                </a>
               </li>
               {% endfor %}
             </ul>
