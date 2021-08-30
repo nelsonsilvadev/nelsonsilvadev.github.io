@@ -3,7 +3,17 @@
   {% include head.html %}
 
   <body>
-    {% include navigation.html %}
+    {% if site.development == false %} {% if site.google.analytics %}
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id={{ site.google.tag_manager }}"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      >
+      </iframe>
+    </noscript>
+    {% endif %} {% endif %} {% include navigation.html %}
 
     <div id="contents" class="contents">
       <div id="wrapper" class="wrapper-card">
