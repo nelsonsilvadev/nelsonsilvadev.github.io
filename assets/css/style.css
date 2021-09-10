@@ -370,7 +370,7 @@ td > a:active {
   line-height: 36px;
   text-align: center;
   position: fixed;
-  bottom: 100px;
+  bottom: 96px;
   right: -4.5px;
   display: none;
   border-radius: 50%;
@@ -406,6 +406,7 @@ td > a:active {
 
 #happy-coding {
   margin-bottom: -4px;
+  font-size: 28px;
 }
 
 .navbar-inverse .navbar-collapse,
@@ -463,6 +464,10 @@ td > a:active {
 
   .top-banner {
     display: none;
+  }
+
+  #happy-coding {
+    margin-bottom: revert;
   }
 }
 
@@ -1459,7 +1464,7 @@ a.icons-menu-button:focus,
   transform: rotate(270deg);
 }
 
-.share {
+.shr {
   list-style: none;
   display: inline;
   margin-left: 0 !important;
@@ -1474,75 +1479,77 @@ a.icons-menu-button:focus,
   margin-left: -6px !important;
 }
 
-.share:after {
+.shr:after {
   content: '';
   display: block;
   clear: both;
 }
 
-.share li {
+.shr li {
   display: inline;
   margin: 0 5px;
 }
 
-.share li:hover {
+.shr li:hover {
   cursor: pointer;
 }
 
-.share li a {
+.shr a li {
   display: inline-block;
   position: relative;
-  margin: 0 auto 0 auto;
+  margin: 0 5px 10px 5px;
 }
 
-.share li a i {
+.shr a li i {
+  display: flex;
+  justify-content: center;
   font-size: 16px;
   color: #333333;
   margin-top: 10px;
   margin-right: 1px !important;
 }
 
-.share li.facebook {
+.shr li.facebook {
   border-color: #3b5998;
 }
 
-.share li.twitter {
+.shr li.twitter {
   border-color: #55acee;
 }
 
-.share li.linkedin {
+.shr li.linkedin {
   border-color: #0077b5;
 }
 
-.share li.email {
+.shr li.email {
   border-color: #7d7d7d;
 }
 
-.share li.reddit {
+.shr li.reddit {
   border-color: #ff4500;
 }
 
-.share li.facebook a i {
+.shr a li.facebook i {
   color: #3b5998 !important;
 }
 
-.share li.twitter a i {
+.shr a li.twitter i {
   color: #55acee !important;
 }
 
-.share li.linkedin a i {
+.shr a li.linkedin i {
   color: #0077b5 !important;
 }
 
-.share li.email a i {
+.shr a li.email i {
   color: #7d7d7d !important;
 }
 
-.share li.reddit a i {
+.shr a li.reddit i {
   color: #ff4500 !important;
 }
 
-.share li {
+.shr li {
   width: 36px;
   height: 36px;
   border: 1px solid #333333;
@@ -1552,12 +1559,12 @@ a.icons-menu-button:focus,
   display: flex;
 }
 
-.share li:hover {
+.shr li:hover {
   opacity: 100%;
 }
 
 @media screen and (max-width: 768px) {
-  .share {
+  .shr {
     display: grid !important;
     z-index: 1;
     right: 0;
@@ -1837,15 +1844,17 @@ a.icons-menu-button:focus,
 
 .post p {
   line-height: 1.5;
+  margin: 0 0 20px;
+}
+
+.post h5 {
+  font-size: 23px;
+  margin: 0 0 15px 0;
 }
 
 .post ul,
 .post li {
   line-height: 1.75;
-}
-
-.post p {
-  margin: 0 0 20px;
 }
 
 .total-numbers {
