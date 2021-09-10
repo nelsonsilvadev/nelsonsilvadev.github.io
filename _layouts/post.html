@@ -49,7 +49,8 @@ layout: default
               <i class="fa fa-tags"></i>
               <span class="comments-link">
                 {% for category in page.categories %}
-                <a href="{{ site.baseurl }}categories/#{{ category }}"
+                <a
+                  href="{{ '' | prepend: site.baseurl | prepend: site.url }}categories/#{{ category }}"
                   >{{ category }}
                 </a>
                 {% endfor %}
@@ -88,7 +89,9 @@ layout: default
               {% for category in site.categories limit:10 %} {% capture
               category_name %}{{ category | first }}{% endcapture %}
               <li class="cat-item">
-                <a href="{{ site.baseurl }}categories/#{{ category_name }}">
+                <a
+                  href="{{ '' | prepend: site.baseurl | prepend: site.url }}categories/#{{ category_name }}"
+                >
                   {{ category_name }}
                 </a>
               </li>
@@ -107,7 +110,9 @@ layout: default
               {% when '11' %}November {% when '12' %}December {% endcase %} {%
               endcapture %}
               <li>
-                <a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}">
+                <a
+                  href="{{ '' | prepend: site.baseurl | prepend: site.url }}{{ post.url | remove_first: '/' }}"
+                >
                   {{ post.title }}<br /><span>
                     {{ months }} {{ post.date | date: '%-d' }}, {{ post.date |
                     date: '%Y' }}
