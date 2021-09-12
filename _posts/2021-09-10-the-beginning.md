@@ -3,6 +3,7 @@ layout: post
 excerpt: Blog
 title: 'The Beginning'
 description: 'Find out how it all started, the improvements and all the content you have access to completely free of charge. Learning to develop has never been so easy.'
+keywords: 'beginning, post'
 date: 2021-09-10
 categories: [Announcements]
 ---

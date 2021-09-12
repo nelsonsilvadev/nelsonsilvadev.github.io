@@ -2,6 +2,7 @@
 layout: default
 title: Blog
 description: Read all the properly written posts related to the programming universe. No doubt learning while reading has never been easier.
+keywords: blog, posts, announcements, develop in python, python
 ---
 
 <section class="blog" id="navblog">
@@ -51,7 +52,7 @@ description: Read all the properly written posts related to the programming univ
 
             <h3 class="title title-blog">
               <a
-                href="/{{ post.url | remove_first: '/' }}"
+                href="{{ '' | prepend: site.baseurl | prepend: site.url }}{{ post.url | remove_first: '/' }}"
                 title="{{ post.title }}"
               >
                 {{ post.title }}
@@ -94,7 +95,9 @@ description: Read all the properly written posts related to the programming univ
               {% when '11' %}November {% when '12' %}December {% endcase %} {%
               endcapture %}
               <li>
-                <a href="/{{ post.url | remove_first: '/' }}">
+                <a
+                  href="{{ '' | prepend: site.baseurl | prepend: site.url }}{{ post.url | remove_first: '/' }}"
+                >
                   {{ post.title }}<br />
                   <span>
                     {{ months }} {{ post.date | date: '%-d' }}, {{ post.date |
