@@ -3,7 +3,7 @@ layout: post
 excerpt: Blog
 title: 'Introduction to Python'
 description: 'Discover the history of Python (programming language), how it came about and its strengths. Get answers to your questions with the summary presented.'
-keywords: 'python, introduction, history, post'
+keywords: 'python, introduction, history, post, post'
 date: 2021-09-13
 categories: [Python]
 ---

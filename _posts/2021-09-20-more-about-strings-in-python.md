@@ -3,7 +3,7 @@ layout: post
 excerpt: Blog
 title: 'More about Strings in Python'
 description: 'Discover how to work with something more about strings in the Python programming language. Get answers to your questions with the theory and examples presented.'
-keywords: 'python, strings, string'
+keywords: 'python, strings, string, post'
 date: 2021-09-20
 categories: [Python]
 ---

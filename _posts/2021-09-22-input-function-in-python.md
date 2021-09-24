@@ -3,7 +3,7 @@ layout: post
 excerpt: Blog
 title: 'input() function in Python'
 description: 'Discover how to work with the input() function in the Python programming language. Get answers to your questions with the theory and examples presented.'
-keywords: 'python, input function, input, function'
+keywords: 'python, input function, input, function, post'
 date: 2021-09-22
 categories: [Python]
 ---

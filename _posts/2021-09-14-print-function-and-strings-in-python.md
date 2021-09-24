@@ -3,7 +3,7 @@ layout: post
 excerpt: Blog
 title: 'print() function and Strings in Python'
 description: 'Discover how to work with the print() function and with strings in the Python programming language. Get answers to your questions with the theory and examples presented.'
-keywords: 'python, print function, print, function, strings, string'
+keywords: 'python, print function, print, function, strings, string, post'
 date: 2021-09-14
 categories: [Python]
 ---

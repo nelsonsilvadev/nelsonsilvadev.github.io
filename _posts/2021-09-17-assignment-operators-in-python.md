@@ -3,7 +3,7 @@ layout: post
 excerpt: Blog
 title: 'Assignment Operators in Python'
 description: 'Discover how to work with assignment operators in the Python programming language. Get answers to your questions with the theory and examples presented.'
-keywords: 'python, assignment operators, assignment, operators'
+keywords: 'python, assignment operators, assignment, operators, post'
 date: 2021-09-17
 categories: [Python]
 ---

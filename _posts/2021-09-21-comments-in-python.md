@@ -3,7 +3,7 @@ layout: post
 excerpt: Blog
 title: 'Comments in Python'
 description: 'Discover how to work with comments in the Python programming language. Get answers to your questions with the theory and examples presented.'
-keywords: 'python, comments, comment'
+keywords: 'python, comments, comment, post'
 date: 2021-09-21
 categories: [Python]
 ---

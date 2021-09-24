@@ -3,7 +3,7 @@ layout: post
 excerpt: Blog
 title: 'Lists in Python'
 description: 'Discover how to work with lists in the Python programming language. Get answers to your questions with the theory and examples presented.'
-keywords: 'python, lists, list'
+keywords: 'python, lists, list, post'
 date: 2021-09-23
 categories: [Python]
 ---
