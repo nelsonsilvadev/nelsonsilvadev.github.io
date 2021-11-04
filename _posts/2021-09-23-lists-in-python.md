@@ -23,6 +23,6 @@ print('Contents of list:', list)
 print('Number of list elements:', len(list[4])) # Number of list elements: 3
 ```
 
-Don't forget to [watch the vídeo](https://youtu.be/YPjiLWtky60){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20210923/listas-em-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/YPjiLWtky60){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20210923/listas-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

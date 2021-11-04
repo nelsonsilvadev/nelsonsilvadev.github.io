@@ -30,6 +30,6 @@ print('Access outside the function:', access)
 '''
 ```
 
-Don't forget to [watch the vídeo](https://youtu.be/K6-_AwbMk34){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211012/variaveis-globais-e-locais-em-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/K6-_AwbMk34){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211012/variaveis-globais-e-locais-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

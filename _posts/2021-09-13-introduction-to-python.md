@@ -21,9 +21,9 @@ It is also important to say that Python is a programming language that supports 
 
 Do not forget that such language can be used for data analysis, artificial intelligence, machine learning, building applications, websites and so on.
 
-- Installation of Python 3.\*;
-- Installation of Visual Studio Code (optional).
+- installation of Python 3.\*;
+- installation of Visual Studio Code (optional).
 
-Don't forget to [watch the vídeo](https://youtu.be/H4PE1xN4AGM){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20210913/introducao-ao-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/H4PE1xN4AGM){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20210913/introducao-ao-python/){:target="\_blank"}.
 
 ### _Happy coding!_

@@ -27,6 +27,6 @@ print('I\'m also a string.)' # SyntaxError: EOL while scanning string literal
 print('We are all a string.' # SyntaxError: invalid syntax
 ```
 
-Don't forget to [watch the vídeo](https://youtu.be/k9s22aFgo9s){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211013/erros-comuns-em-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/k9s22aFgo9s){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211013/erros-comuns-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

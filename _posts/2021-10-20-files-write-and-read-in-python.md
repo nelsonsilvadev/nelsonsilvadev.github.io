@@ -36,6 +36,6 @@ print(readFile.read())
 readFile.close()
 ```
 
-Don't forget to [watch the vídeo](https://youtu.be/Hh8eV7n5ieg){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211020/ficheiros-escrever-e-ler-em-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/Hh8eV7n5ieg){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211020/ficheiros-escrever-e-ler-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

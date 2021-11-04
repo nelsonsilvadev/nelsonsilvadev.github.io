@@ -27,6 +27,6 @@ from math import *
 print('pi value:', pi) # pi value: 3.141592653589793
 ```
 
-Don't forget to [watch the vídeo](https://youtu.be/HuvfFhMmsbI){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211015/modulos-em-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/HuvfFhMmsbI){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211015/modulos-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

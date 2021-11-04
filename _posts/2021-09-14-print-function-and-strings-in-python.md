@@ -23,6 +23,6 @@ print('I\'m writing in English.') # I'm writing in English.
 print('Caffeine', 'Algorithm') # Caffeine Algorithm
 ```
 
-Don't forget to [watch the vídeo](https://youtu.be/8lP9h4gaKYA){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20210914/funcao-print-e-strings-em-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/8lP9h4gaKYA){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20210914/funcao-print-e-strings-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

@@ -14,15 +14,15 @@ In this post, you will learn how to work with the `input()` function so that you
 - in short, this same function serves to increase interaction with it.
 
 ```python
-firstName = input('Insert your first name: ')
-lastName = input('Insert your last name: ')
-age = input('Insert your age: ')
+firstName = input('Enter your first name: ')
+lastName = input('Enter your last name: ')
+age = input('Enter your age: ')
 
 print('First name:', firstName)
 print('Last name:', lastName)
 print('Age:', age)
 ```
 
-Don't forget to [watch the vídeo](https://youtu.be/6hVTr0bcBc0){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20210922/funcao-input-em-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/6hVTr0bcBc0){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20210922/funcao-input-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

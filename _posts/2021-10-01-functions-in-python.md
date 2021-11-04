@@ -36,6 +36,6 @@ personalData()
 '''
 ```
 
-Don't forget to [watch the vídeo](https://youtu.be/H8M_73ybl5Y){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211001/funcoes-em-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/H8M_73ybl5Y){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211001/funcoes-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

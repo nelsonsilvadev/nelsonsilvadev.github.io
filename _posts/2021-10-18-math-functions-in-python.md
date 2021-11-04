@@ -34,6 +34,6 @@ print('Result of the fsum() function:', fsum(numbers)) # Result of the fsum() fu
 print('Result of the pow() function:', pow(2, 5)) # Result of the pow() function: 32.0
 ```
 
-Don't forget to [watch the vídeo](https://youtu.be/yA_QteaN0vs){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211018/funcoes-matematicas-em-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/yA_QteaN0vs){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211018/funcoes-matematicas-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

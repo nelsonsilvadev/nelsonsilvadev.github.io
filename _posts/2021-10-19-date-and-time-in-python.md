@@ -27,6 +27,6 @@ print(localtime(time())) # time.struct_time(tm_year=2021, tm_mon=8, tm_mday=5, t
 print(asctime(localtime(time()))) # Thu Aug 5 22:03:08 2021
 ```
 
-Don't forget to [watch the vídeo](https://youtu.be/pT6gLZZOoIw){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211019/data-e-hora-em-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/pT6gLZZOoIw){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211019/data-e-hora-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

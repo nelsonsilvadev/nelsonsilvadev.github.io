@@ -42,6 +42,6 @@ for number in range(1, 11):
 '''
 ```
 
-Don't forget to [watch the vídeo](https://youtu.be/NHn4AzcKLeA){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20210928/ciclo-for-em-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/NHn4AzcKLeA){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20210928/ciclo-for-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

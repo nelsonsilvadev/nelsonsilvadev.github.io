@@ -51,6 +51,6 @@ pessoa2.checkEntrance()
 '''
 ```
 
-Don't forget to [watch the vídeo](https://youtu.be/6a0ZhURjP6s){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211025/init-em-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/6a0ZhURjP6s){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211025/init-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

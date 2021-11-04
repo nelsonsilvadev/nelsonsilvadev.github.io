@@ -37,6 +37,6 @@ enemy1.checkLife() # I'm still in combat and have 2 lives.
 enemy2.checkLife() # I'm still in combat and have 5 lives.
 ```
 
-Don't forget to [watch the vídeo](https://youtu.be/JzHlMtlohNE){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211022/classes-e-objetos-em-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/JzHlMtlohNE){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211022/classes-e-objetos-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

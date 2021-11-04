@@ -20,12 +20,12 @@ In this post, you will learn how to work with arithmetic operators so that you c
 ```python
 print('Addition:', 10 + 10) # Addition: 20
 print('Subtraction:', 10.5 - 5.5 - 4.5) # Subtraction: 0.5
-print('Multiplication:', -10 * -2) # Multiplication: -20
+print('Multiplication:', -10 * 2) # Multiplication: -20
 print('Division:', 10 / 10) # Division: 1.0
 print('Rest:', 8 % 2) # Rest: 0
 print('Exponent:', 2 ** 5) # Exponent: 32 (2 * 2 * 2 * 2 * 2)
 ```
 
-Don't forget to [watch the vídeo](https://youtu.be/lrIT6rpboVg){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20210915/operadores-aritmeticos-em-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/lrIT6rpboVg){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20210915/operadores-aritmeticos-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

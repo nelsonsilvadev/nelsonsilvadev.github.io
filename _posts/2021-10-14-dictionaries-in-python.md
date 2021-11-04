@@ -26,6 +26,6 @@ print(ages.keys()) # dict_keys(['Nelson Silva', 'Pedro Henrique', 'Raquel Soares
 print(ages.values()) # dict_values([25, 100, 68])
 ```
 
-Don't forget to [watch the vídeo](https://youtu.be/Ux328aoXQYM){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211014/dicionarios-em-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/Ux328aoXQYM){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211014/dicionarios-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_
