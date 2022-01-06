@@ -1,6 +1,7 @@
 * {
   font-family: 'Questrial', Helvetica, Arial, sans-serif;
   font-weight: 300;
+  user-select: text;
 }
 
 body {
@@ -96,6 +97,20 @@ code > span {
 table {
   margin: 0;
   padding: 0;
+}
+
+img,
+.social ul,
+.hover-animate,
+.nav.navbar-nav,
+.what-i-m-doing,
+.progress-bar span,
+.hobbies-and-interests {
+  user-select: none;
+}
+
+.what-i-m-doing .name {
+  user-select: text;
 }
 
 .highlighter-rouge {
@@ -1505,8 +1520,8 @@ a.icons-menu-button:focus,
   justify-content: center;
   font-size: 16px;
   color: #333333;
-  margin-top: 10px;
-  margin-right: 1px !important;
+  margin-top: 9px;
+  margin-right: 0 !important;
 }
 
 .shr li.facebook {
