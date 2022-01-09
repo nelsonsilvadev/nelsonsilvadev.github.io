@@ -10,8 +10,8 @@ keywords: blog, posts, announcements, develop in python, python
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-6 col-lg-3">
-          <h2 class="title">Blog</h2>
-          <h4 class="sub-title">I Write My Thoughts Here</h4>
+          <h1 class="title">Blog</h1>
+          <h2 class="sub-title">I Write My Thoughts Here</h2>
         </div>
       </div>
     </div>
@@ -42,7 +42,7 @@ keywords: blog, posts, announcements, develop in python, python
               <span class="comments-link">
                 {% for category in post.categories %}
                 <a
-                  href="{{ 'categories/#' | prepend: site.baseurl | prepend: site.url }}{{ category }}"
+                  href="{{ '/categories/#' | prepend: site.baseurl | prepend: site.url }}/{{ category }}"
                 >
                   {{ category }}{% unless forloop.last %},&nbsp;{% endunless %}
                 </a>
@@ -52,7 +52,7 @@ keywords: blog, posts, announcements, develop in python, python
 
             <h3 class="title title-blog">
               <a
-                href="{{ '' | prepend: site.baseurl | prepend: site.url }}{{ post.url | remove_first: '/' }}"
+                href="{{ '' | prepend: site.baseurl | prepend: site.url }}/{{ post.url | remove_first: '/' }}"
                 title="{{ post.title }}"
               >
                 {{ post.title }}
@@ -69,13 +69,14 @@ keywords: blog, posts, announcements, develop in python, python
 
         <div class="col-xs-12 col-sm-12 col-lg-4 widget-blog">
           <aside class="widget widget_categories">
-            <h3 class="widget-title">Categories</h3>
+            <h4 class="widget-title">Categories</h4>
+
             <ul>
               {% for category in site.categories limit:10 %} {% capture
               category_name %}{{ category | first }}{% endcapture %}
               <li class="cat-item">
                 <a
-                  href="{{ 'categories/#' | prepend: site.baseurl | prepend: site.url }}{{ category_name }}"
+                  href="{{ '/categories/#' | prepend: site.baseurl | prepend: site.url }}/{{ category_name }}"
                 >
                   {{ category_name }}
                 </a>
@@ -85,7 +86,8 @@ keywords: blog, posts, announcements, develop in python, python
           </aside>
 
           <aside class="widget widget_recent_entries">
-            <h3 class="widget-title">Latest Posts</h3>
+            <h4 class="widget-title">Latest Posts</h4>
+
             <ul>
               {% for post in site.posts limit:3 %} {% assign month = post.date |
               date: "%-m" %} {% capture months %} {% case month %} {% when '1'
@@ -96,7 +98,7 @@ keywords: blog, posts, announcements, develop in python, python
               endcapture %}
               <li>
                 <a
-                  href="{{ '' | prepend: site.baseurl | prepend: site.url }}{{ post.url | remove_first: '/' }}"
+                  href="{{ '' | prepend: site.baseurl | prepend: site.url }}/{{ post.url | remove_first: '/' }}"
                 >
                   {{ post.title }}<br />
                   <span>

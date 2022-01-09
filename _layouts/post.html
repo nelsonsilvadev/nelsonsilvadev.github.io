@@ -7,8 +7,8 @@ layout: default
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-7 col-lg-12">
-          <h2 class="title">Blog</h2>
-          <h4 class="sub-title">I Write My Thoughts Here</h4>
+          <p class="title">Blog</p>
+          <p class="sub-title">I Write My Thoughts Here</p>
         </div>
       </div>
     </div>
@@ -25,7 +25,7 @@ layout: default
           '10' %}October {% when '11' %}November {% when '12' %}December {%
           endcase %} {% endcapture %}
           <div class="post">
-            <h3 class="title title-post">{{ page.title }}</h3>
+            <h1 class="title title-post">{{ page.title }}</h1>
 
             <div class="entry-byline">
               <i class="fa fa-user"></i>
@@ -50,7 +50,7 @@ layout: default
               <span class="comments-link">
                 {% for category in page.categories %}
                 <a
-                  href="{{ '' | prepend: site.baseurl | prepend: site.url }}categories/#{{ category }}"
+                  href="{{ '' | prepend: site.baseurl | prepend: site.url }}/categories/#{{ category }}"
                   >{{ category }}
                 </a>
                 {% endfor %}
@@ -84,13 +84,14 @@ layout: default
 
         <div class="col-xs-12 col-sm-12 col-lg-4 widget-blog padding-lr-45">
           <aside class="widget widget_categories">
-            <h3 class="widget-title">Categories</h3>
+            <h4 class="widget-title">Categories</h4>
+
             <ul>
               {% for category in site.categories limit:10 %} {% capture
               category_name %}{{ category | first }}{% endcapture %}
               <li class="cat-item">
                 <a
-                  href="{{ '' | prepend: site.baseurl | prepend: site.url }}categories/#{{ category_name }}"
+                  href="{{ '' | prepend: site.baseurl | prepend: site.url }}/categories/#{{ category_name }}"
                 >
                   {{ category_name }}
                 </a>
@@ -100,7 +101,8 @@ layout: default
           </aside>
 
           <aside class="widget widget_recent_entries">
-            <h3 class="widget-title">Latest Posts</h3>
+            <h4 class="widget-title">Latest Posts</h4>
+
             <ul>
               {% for post in site.posts limit:3 %} {% assign month = post.date |
               date: "%-m" %} {% capture months %} {% case month %} {% when '1'
@@ -111,7 +113,7 @@ layout: default
               endcapture %}
               <li>
                 <a
-                  href="{{ '' | prepend: site.baseurl | prepend: site.url }}{{ post.url | remove_first: '/' }}"
+                  href="{{ '' | prepend: site.baseurl | prepend: site.url }}/{{ post.url | remove_first: '/' }}"
                 >
                   {{ post.title }}<br /><span>
                     {{ months }} {{ post.date | date: '%-d' }}, {{ post.date |

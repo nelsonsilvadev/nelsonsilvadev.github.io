@@ -11,7 +11,7 @@
         <div class="navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="menuItem {% if active[1] == null %}active{% endif %}">
-              <a href="{{ site.url }}">Profile</a>
+              <a href="/">Profile</a>
             </li>
 
             <li
@@ -19,7 +19,7 @@
             >
               <a
                 href="{{
-                  'resume' | prepend: site.baseurl | prepend: site.url
+                  '/resume' | prepend: site.baseurl | prepend: site.url
                 }}"
               >
                 Resume
@@ -27,21 +27,11 @@
             </li>
 
             <li
-              class="
-                menuItem
-                {%
-                if
-                active[1]
-                ==
-                'portfolio'
-                %}active{%
-                endif
-                %}
-              "
+              class="menuItem {% if active[1] == 'portfolio' %}active{% endif %}"
             >
               <a
                 href="{{
-                  'portfolio' | prepend: site.baseurl | prepend: site.url
+                  '/portfolio' | prepend: site.baseurl | prepend: site.url
                 }}"
               >
                 Portfolio
@@ -51,7 +41,7 @@
             <li class="menuItem {% if active[1] == 'blog' %}active{% endif %}">
               <a
                 href="{{
-                  'blog' | prepend: site.baseurl | prepend: site.url
+                  '/blog' | prepend: site.baseurl | prepend: site.url
                 }}"
               >
                 Blog

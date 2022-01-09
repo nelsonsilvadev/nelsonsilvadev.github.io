@@ -1,8 +1,7 @@
 title: 'Nelson Silva'
 description: 'My career as a Frontend Developer (Profile, Resume, Portfolio and Blog)'
 keywords: 'technology, computing, programming, frontend, developer, code, nelsonsilvadev, nelsonsilva, nelson silva'
-url: 'https://nelsonsilvadev.com/'
-baseurl: '/'
+url: 'https://nelsonsilvadev.com'
 
 development: false
 
@@ -36,6 +35,20 @@ google:
   verify: 'ajVPbFZ5Vbuj0FC0vgFM27c4n0WhIuqqUVTlaJuaKVk'
   ad_client: 'ca-pub-9627952229249296'
 
+google_site_verification: 'ajVPbFZ5Vbuj0FC0vgFM27c4n0WhIuqqUVTlaJuaKVk'
+
+social:
+  name: 'Nelson Silva'
+  links:
+    - 'https://github.com/nelsonsilvadev'
+    - 'https://www.linkedin.com/in/nelsonsilvadev'
+    - 'https://www.instagram.com/nelsonsilvadev'
+    - 'https://www.youtube.com/c/CaffeineAlgorithm'
+
+locale: 'en_US'
+
+seo_paginator_message: 'Page %<current>s of %<total>s | '
+
 defaults:
   - scope:
       path: ''
@@ -56,5 +69,5 @@ kramdown:
   syntax_highlighter_opts:
     css_class: 'highlight'
 
-plugins: ['jekyll-paginate']
+plugins: ['jekyll-paginate', 'jekyll-sitemap', 'jekyll-seo-tag']
 exclude: ['README.md']

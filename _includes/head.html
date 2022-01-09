@@ -6,35 +6,15 @@
   <meta name="robots" content="noindex" />
   {% endif %}
 
-  <meta name="author" content="{{ site.author.name }}" />
-  <meta name="organization" content="{{ site.organization.name }}" />
-
-  <meta
-    name="description"
-    content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"
-  />
-
-  <!-- <meta
-    name="keywords"
-    content="{% if page.keywords %}{{ page.keywords }}, {{ site.keywords }}{% else %}{{ site.keywords }}{% endif %}"
-  /> -->
-
   <meta
     name="viewport"
     content="width=device-width, initial-scale=1, maximum-scale=1"
   />
 
-  {% if site.development == false %} {% if site.google.verify %}
-  <meta name="google-site-verification" content="{{ site.google.verify }}" />
-  {% endif %} {% endif %}
+  <meta name="msapplication-TileColor" content="#1a1a1a" />
+  <meta name="theme-color" content="#ffffff" />
 
-  <meta name="twitter:card" content="summary" />
-
-  <meta
-    name="twitter:title"
-    content="{% if page.title %}{{ page.title }} - {{ site.author.name }}{% else
-      %}{{ site.title }}{% endif %}"
-  />
+  {% seo %}
 
   <meta
     name="twitter:description"
@@ -43,24 +23,43 @@
 
   <meta
     name="twitter:image"
-    content="{{ 'assets/img/avatar.jpg' | prepend: site.baseurl | prepend: site.url }}"
+    content="{{ '/assets/img/avatar.jpg' | prepend: site.baseurl | prepend: site.url }}"
   />
 
-  <title>
-    {% if page.title %}{{ page.title }} - {{ site.author.name }}{% else %}{{
-    site.title }}{% endif %}
-  </title>
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="{{ '/assets/img/apple-touch-icon.png' | prepend: site.baseurl | prepend: site.url }}"
+  />
+
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="{{ '/assets/img/favicon-32x32.png' | prepend: site.baseurl | prepend: site.url }}"
+  />
+
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="{{ '/assets/img/favicon-16x16.png' | prepend: site.baseurl | prepend: site.url }}"
+  />
+
+  <link
+    rel="manifest"
+    href="{{ '/assets/img/site.webmanifest' | prepend: site.baseurl | prepend: site.url }}"
+  />
+
+  <link
+    rel="mask-icon"
+    href="{{ '/assets/img/safari-pinned-tab.svg' | prepend: site.baseurl | prepend: site.url }}"
+    color="#1a1a1a"
+  />
 
   <link
     rel="shortcut icon"
-    href="{{
-      'assets/img/favicon.png' | prepend: site.baseurl | prepend: site.url
-    }}"
-  />
-
-  <link
-    rel="canonical"
-    href='{{ page.url | replace:"index.html", "" | prepend: site.baseurl | prepend: site.url }}'
+    href="{{ '/assets/img/favicon.ico' | prepend: site.baseurl | prepend: site.url }}"
   />
 
   <link
@@ -68,7 +67,7 @@
     rel="stylesheet"
     media="all"
     href="{{
-      'assets/fonts/font-awesome/css/font-awesome.min.css'
+      '/assets/fonts/font-awesome/css/font-awesome.min.css'
         | prepend: site.baseurl
         | prepend: site.url
     }}"
@@ -79,7 +78,7 @@
     rel="stylesheet"
     media="all"
     href="{{
-      'assets/css/bootstrap.min.css'
+      '/assets/css/bootstrap.min.css'
         | prepend: site.baseurl
         | prepend: site.url
     }}"
@@ -90,7 +89,7 @@
     rel="stylesheet"
     media="screen"
     href="{{
-      'assets/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5'
+      '/assets/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5'
         | prepend: site.baseurl
         | prepend: site.url
     }}"
@@ -100,7 +99,7 @@
     type="text/css"
     rel="stylesheet"
     href="{{
-      'assets/fancybox/source/jquery.fancybox.css?v=2.1.5'
+      '/assets/fancybox/source/jquery.fancybox.css?v=2.1.5'
         | prepend: site.baseurl
         | prepend: site.url
     }}"
@@ -111,7 +110,7 @@
     type="text/css"
     rel="stylesheet"
     href="{{
-      'assets/css/owl.carousel.css' | prepend: site.baseurl | prepend: site.url
+      '/assets/css/owl.carousel.css' | prepend: site.baseurl | prepend: site.url
     }}"
   />
 
@@ -119,7 +118,7 @@
     type="text/css"
     rel="stylesheet"
     href="{{
-      'assets/css/slider.css' | prepend: site.baseurl | prepend: site.url
+      '/assets/css/slider.css' | prepend: site.baseurl | prepend: site.url
     }}"
   />
 
@@ -127,32 +126,7 @@
     type="text/css"
     rel="stylesheet"
     href="{{
-      'assets/css/owl.theme.css' | prepend: site.baseurl | prepend: site.url
-    }}"
-  />
-
-  <link
-    type="text/css"
-    rel="stylesheet"
-    media="all"
-    href="{{
-      'assets/css/animate.css' | prepend: site.baseurl | prepend: site.url
-    }}"
-  />
-
-  <link
-    type="text/css"
-    rel="stylesheet"
-    href="{{
-      'assets/css/stickup.css' | prepend: site.baseurl | prepend: site.url
-    }}"
-  />
-
-  <link
-    type="text/css"
-    rel="stylesheet"
-    href="{{
-      'assets/css/component.css' | prepend: site.baseurl | prepend: site.url
+      '/assets/css/owl.theme.css' | prepend: site.baseurl | prepend: site.url
     }}"
   />
 
@@ -161,7 +135,23 @@
     rel="stylesheet"
     media="all"
     href="{{
-      'assets/css/syntax.css' | prepend: site.baseurl | prepend: site.url
+      '/assets/css/animate.css' | prepend: site.baseurl | prepend: site.url
+    }}"
+  />
+
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="{{
+      '/assets/css/stickup.css' | prepend: site.baseurl | prepend: site.url
+    }}"
+  />
+
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="{{
+      '/assets/css/component.css' | prepend: site.baseurl | prepend: site.url
     }}"
   />
 
@@ -170,7 +160,7 @@
     rel="stylesheet"
     media="all"
     href="{{
-      'assets/css/style.min.css' | prepend: site.baseurl | prepend: site.url
+      '/assets/css/syntax.css' | prepend: site.baseurl | prepend: site.url
     }}"
   />
 
@@ -179,7 +169,7 @@
     rel="stylesheet"
     media="all"
     href="{{
-      'assets/css/switcher.css' | prepend: site.baseurl | prepend: site.url
+      '/assets/css/style.css' | prepend: site.baseurl | prepend: site.url
     }}"
   />
 
@@ -188,7 +178,7 @@
     rel="stylesheet"
     media="all"
     href="{{
-      'assets/css/theme.min.css' | prepend: site.baseurl | prepend: site.url
+      '/assets/css/switcher.css' | prepend: site.baseurl | prepend: site.url
     }}"
   />
 
@@ -197,7 +187,16 @@
     rel="stylesheet"
     media="all"
     href="{{
-      'assets/css/respons.css' | prepend: site.baseurl | prepend: site.url
+      '/assets/css/theme.min.css' | prepend: site.baseurl | prepend: site.url
+    }}"
+  />
+
+  <link
+    type="text/css"
+    rel="stylesheet"
+    media="all"
+    href="{{
+      '/assets/css/respons.css' | prepend: site.baseurl | prepend: site.url
     }}"
   />
 

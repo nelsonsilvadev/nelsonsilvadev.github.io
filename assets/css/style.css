@@ -263,6 +263,7 @@ td > a:active {
 
 .title-post {
   margin-bottom: -25px;
+  line-height: 48px;
 }
 
 .content-blog {
@@ -296,6 +297,8 @@ td > a:active {
   font-size: 24px;
   font-weight: normal;
   margin-bottom: 15px;
+  line-height: 48px;
+  margin-top: 24px;
 }
 
 .widget_categories ul {
@@ -545,12 +548,16 @@ td > a:active {
 .home-header .title {
   text-transform: uppercase;
   margin-bottom: 0;
+  font-size: 66px;
+  line-height: 72px;
+  margin-top: 48px;
 }
 
 .home-header .sub-title {
   font-weight: 300;
   margin: 0;
   line-height: 34px;
+  font-size: 26px;
 }
 
 .home-header .full-length-photo {
@@ -727,12 +734,17 @@ a.icons-menu-button:focus,
 }
 
 .head .title {
+  font-size: 41px;
+  line-height: 48px;
   margin: 0;
 }
 
+.head h2,
 .head .sub-title {
-  margin: 0;
+  font-size: 17px;
   font-weight: 300;
+  line-height: 24px;
+  margin: 0;
 }
 
 .head .logo-page {
@@ -1162,6 +1174,8 @@ a.icons-menu-button:focus,
 }
 
 .portfolio-item .title {
+  font-size: 26px;
+  line-height: 48px;
   margin: 0;
 }
 
@@ -1184,6 +1198,11 @@ a.icons-menu-button:focus,
   border-style: solid;
 }
 
+.portfolio-item .desc {
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+
 .podrt-desc {
   max-width: 770px;
   margin: auto;
@@ -1193,12 +1212,13 @@ a.icons-menu-button:focus,
 }
 
 .podrt-desc p,
-.podrt-desc h3 {
+.podrt-desc .title {
   padding: 20px;
   padding-bottom: 0;
 }
 
-.podrt-desc h3 {
+.podrt-desc .title {
+  font-size: 26px;
   margin: 0;
   text-align: left;
   font-weight: 600;
@@ -1419,6 +1439,9 @@ a.icons-menu-button:focus,
 
 .my-thoughts .sub-title {
   margin-bottom: 0;
+  font-size: 17px;
+  line-height: 24px;
+  margin-top: 24px;
 }
 
 .my-thoughts .icons {
