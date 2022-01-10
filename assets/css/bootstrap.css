@@ -358,6 +358,10 @@ pre code {
   width: 50%;
 }
 
+#portfolio-grid > .col-xs-6 {
+  width: unset;
+}
+
 .col-xs-5 {
   width: 41.66666667%;
 }
@@ -419,6 +423,9 @@ pre code {
   }
   .col-sm-4 {
     width: 33.33333333%;
+  }
+  #portfolio-grid > .col-sm-4 {
+    width: unset;
   }
   .col-sm-3 {
     width: 25%;
@@ -528,6 +535,9 @@ pre code {
   }
   .col-lg-3 {
     width: 25%;
+  }
+  #portfolio-grid > .col-lg-3 {
+    width: unset;
   }
   .col-lg-2 {
     width: 16.66666667%;

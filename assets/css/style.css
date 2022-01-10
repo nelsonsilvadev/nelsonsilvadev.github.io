@@ -1613,6 +1613,12 @@ a.icons-menu-button:focus,
     bottom: 142px;
     right: 0;
   }
+
+  #portfolio-grid {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 768px) {
