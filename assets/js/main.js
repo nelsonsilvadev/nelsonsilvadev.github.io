@@ -1,14 +1,6 @@
 $(document).ready(function () {
   'use strict';
 
-  if ($('#contents').hasClass('contents')) {
-    jQuery(function ($) {
-      $(document).ready(function () {
-        $('.navbar-wrapper').stickUp({});
-      });
-    });
-  }
-
   var linkNav = document.querySelectorAll('[href^="#nav"]'),
     V = 1000;
 

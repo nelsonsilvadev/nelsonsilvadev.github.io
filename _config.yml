@@ -32,8 +32,8 @@ author:
 google:
   tag_manager: 'GTM-K6M9N4W'
   analytics: 'UA-76965623-2'
-  verify: 'ajVPbFZ5Vbuj0FC0vgFM27c4n0WhIuqqUVTlaJuaKVk'
-  ad_client: 'ca-pub-9627952229249296'
+  # verify: 'ajVPbFZ5Vbuj0FC0vgFM27c4n0WhIuqqUVTlaJuaKVk'
+  # ad_client: 'ca-pub-9627952229249296'
 
 google_site_verification: 'ajVPbFZ5Vbuj0FC0vgFM27c4n0WhIuqqUVTlaJuaKVk'
 

@@ -87,19 +87,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    media="screen"
     href="{{
-      '/assets/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5'
-        | prepend: site.baseurl
-        | prepend: site.url
-    }}"
-  />
-
-  <link
-    type="text/css"
-    rel="stylesheet"
-    href="{{
-      '/assets/fancybox/source/jquery.fancybox.css?v=2.1.5'
+      '/assets/fancybox/source/jquery.fancybox.min.css?v=2.1.5'
         | prepend: site.baseurl
         | prepend: site.url
     }}"
@@ -110,7 +99,7 @@
     type="text/css"
     rel="stylesheet"
     href="{{
-      '/assets/css/owl.carousel.css' | prepend: site.baseurl | prepend: site.url
+      '/assets/css/owl.carousel.min.css' | prepend: site.baseurl | prepend: site.url
     }}"
   />
 
@@ -118,15 +107,7 @@
     type="text/css"
     rel="stylesheet"
     href="{{
-      '/assets/css/slider.css' | prepend: site.baseurl | prepend: site.url
-    }}"
-  />
-
-  <link
-    type="text/css"
-    rel="stylesheet"
-    href="{{
-      '/assets/css/owl.theme.css' | prepend: site.baseurl | prepend: site.url
+      '/assets/css/owl.theme.min.css' | prepend: site.baseurl | prepend: site.url
     }}"
   />
 
@@ -135,23 +116,7 @@
     rel="stylesheet"
     media="all"
     href="{{
-      '/assets/css/animate.css' | prepend: site.baseurl | prepend: site.url
-    }}"
-  />
-
-  <link
-    type="text/css"
-    rel="stylesheet"
-    href="{{
-      '/assets/css/stickup.css' | prepend: site.baseurl | prepend: site.url
-    }}"
-  />
-
-  <link
-    type="text/css"
-    rel="stylesheet"
-    href="{{
-      '/assets/css/component.css' | prepend: site.baseurl | prepend: site.url
+      '/assets/css/animate.min.css' | prepend: site.baseurl | prepend: site.url
     }}"
   />
 
@@ -160,7 +125,7 @@
     rel="stylesheet"
     media="all"
     href="{{
-      '/assets/css/syntax.css' | prepend: site.baseurl | prepend: site.url
+      '/assets/css/syntax.min.css' | prepend: site.baseurl | prepend: site.url
     }}"
   />
 
@@ -169,16 +134,7 @@
     rel="stylesheet"
     media="all"
     href="{{
-      '/assets/css/style.css' | prepend: site.baseurl | prepend: site.url
-    }}"
-  />
-
-  <link
-    type="text/css"
-    rel="stylesheet"
-    media="all"
-    href="{{
-      '/assets/css/switcher.css' | prepend: site.baseurl | prepend: site.url
+      '/assets/css/style.min.css' | prepend: site.baseurl | prepend: site.url
     }}"
   />
 
@@ -196,15 +152,31 @@
     rel="stylesheet"
     media="all"
     href="{{
-      '/assets/css/respons.css' | prepend: site.baseurl | prepend: site.url
+      '/assets/css/respons.min.css' | prepend: site.baseurl | prepend: site.url
     }}"
   />
 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
   <link
-    type="text/css"
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Questrial"
+    rel="preload"
+    as="style"
+    href="https://fonts.googleapis.com/css?family=Questrial&display=swap"
   />
+
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Questrial&display=swap"
+    media="print"
+    onload="this.media='all'"
+  />
+
+  <noscript>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Questrial&display=swap"
+    />
+  </noscript>
 
   {% if site.development == false %} {% if site.google.analytics %}
   <script>
