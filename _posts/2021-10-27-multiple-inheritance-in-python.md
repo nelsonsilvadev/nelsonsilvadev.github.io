@@ -42,6 +42,10 @@ pessoa.favoriteColor()
 '''
 ```
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/e4N5AHTSKG0" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Don't forget to [watch the video](https://youtu.be/e4N5AHTSKG0){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211027/multipla-heranca-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

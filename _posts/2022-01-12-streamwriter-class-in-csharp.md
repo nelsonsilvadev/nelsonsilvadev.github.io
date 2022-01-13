@@ -54,6 +54,10 @@ namespace Base {
 }
 ```
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/7Hjm23B-quw" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Don't forget to [watch the video](https://youtu.be/7Hjm23B-quw){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220112/classe-streamwriter-em-csharp/){:target="\_blank"}.
 
 ### _Happy coding!_

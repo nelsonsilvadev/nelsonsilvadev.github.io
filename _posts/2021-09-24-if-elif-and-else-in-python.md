@@ -32,6 +32,10 @@ else:
 # The value of x is different from 10 and 20.
 ```
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/27pMZOoPRzk" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Don't forget to [watch the video](https://youtu.be/27pMZOoPRzk){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20210924/if-elif-e-else-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

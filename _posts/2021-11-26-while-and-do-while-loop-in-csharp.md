@@ -61,6 +61,10 @@ namespace Base {
 */
 ```
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/wLxv9_cotcE" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Don't forget to [watch the video](https://youtu.be/wLxv9_cotcE){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211126/ciclo-while-e-do-while-em-csharp/){:target="\_blank"}.
 
 ### _Happy coding!_

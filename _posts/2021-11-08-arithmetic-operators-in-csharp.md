@@ -32,6 +32,10 @@ namespace Base {
 }
 ```
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/x-xdi7NRJDs" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Don't forget to [watch the video](https://youtu.be/x-xdi7NRJDs){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211108/operadores-aritmeticos-em-csharp/){:target="\_blank"}.
 
 ### _Happy coding!_

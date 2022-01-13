@@ -39,6 +39,10 @@ while count <= 10:
 '''
 ```
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/1D4afA8tvmk" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Don't forget to [watch the video](https://youtu.be/1D4afA8tvmk){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20210929/ciclo-while-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

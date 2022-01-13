@@ -42,6 +42,10 @@ for number in range(1, 11):
 '''
 ```
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/NHn4AzcKLeA" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Don't forget to [watch the video](https://youtu.be/NHn4AzcKLeA){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20210928/ciclo-for-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

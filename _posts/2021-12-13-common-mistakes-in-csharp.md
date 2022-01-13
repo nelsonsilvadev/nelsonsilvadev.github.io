@@ -41,6 +41,10 @@ namespace Base {
 }
 ```
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/zTZxnegO2Ro" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Don't forget to [watch the video](https://youtu.be/zTZxnegO2Ro){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211213/erros-comuns-em-csharp/){:target="\_blank"}.
 
 ### _Happy coding!_

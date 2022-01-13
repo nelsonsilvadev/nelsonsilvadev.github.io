@@ -24,6 +24,10 @@ Some important features about the language that we're going to learn in this ser
 
 - installation of Visual Studio.
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/JuVlWkNqRMA" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Don't forget to [watch the video](https://youtu.be/JuVlWkNqRMA){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211103/introducao-ao-csharp/){:target="\_blank"}.
 
 ### _Happy coding!_

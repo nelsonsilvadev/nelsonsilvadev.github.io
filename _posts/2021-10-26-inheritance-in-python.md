@@ -38,6 +38,10 @@ person.favoriteFood()
 '''
 ```
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/7cVfMDDAk64" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Don't forget to [watch the video](https://youtu.be/7cVfMDDAk64){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211026/heranca-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

@@ -32,6 +32,10 @@ print('Result of operator <<:', x << 2) # Result of operator <<: 240 (11110000)
 print('Result of operator >>:', x >> 2) # Result of operator >>: 15 (00001111)
 ```
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/gyBY7AcVPk4" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Don't forget to [watch the video](https://youtu.be/gyBY7AcVPk4){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211102/operadores-bit-a-bit-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

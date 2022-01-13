@@ -52,6 +52,10 @@ namespace Base {
 */
 ```
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/bbXsVSa952Y" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Don't forget to [watch the video](https://youtu.be/bbXsVSa952Y){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220104/delegate-em-csharp/){:target="\_blank"}.
 
 ### _Happy coding!_

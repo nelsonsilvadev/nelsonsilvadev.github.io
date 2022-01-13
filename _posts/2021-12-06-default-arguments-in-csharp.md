@@ -34,6 +34,10 @@ namespace Base {
 // The door is closed.
 ```
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/9Dv8IR1Hy5U" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Don't forget to [watch the video](https://youtu.be/9Dv8IR1Hy5U){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211206/argumentos-padrao-em-csharp/){:target="\_blank"}.
 
 ### _Happy coding!_

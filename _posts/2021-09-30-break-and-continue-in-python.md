@@ -51,6 +51,10 @@ while counter < 10:
 '''
 ```
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/bh0yUxxWBZE" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Don't forget to [watch the video](https://youtu.be/bh0yUxxWBZE){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20210930/break-e-continue-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

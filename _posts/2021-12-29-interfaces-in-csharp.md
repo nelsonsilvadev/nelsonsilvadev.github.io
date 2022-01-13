@@ -74,6 +74,10 @@ namespace Base {
 }
 ```
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/mPUUj1xwe7U" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Don't forget to [watch the video](https://youtu.be/mPUUj1xwe7U){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211229/interfaces-em-csharp/){:target="\_blank"}.
 
 ### _Happy coding!_

@@ -56,6 +56,10 @@ namespace Base {
 }
 ```
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/9FNQUgfBUz8" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Don't forget to [watch the video](https://youtu.be/9FNQUgfBUz8){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211220/classes-e-objetos-em-csharp/){:target="\_blank"}.
 
 ### _Happy coding!_

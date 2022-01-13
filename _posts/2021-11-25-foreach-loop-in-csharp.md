@@ -55,6 +55,10 @@ namespace Base {
 */
 ```
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/seMBMqxe8KA" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Don't forget to [watch the video](https://youtu.be/seMBMqxe8KA){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211125/ciclo-foreach-em-csharp/){:target="\_blank"}.
 
 ### _Happy coding!_

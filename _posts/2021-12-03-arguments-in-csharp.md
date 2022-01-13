@@ -42,6 +42,10 @@ namespace Base {
 */
 ```
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/mrbE0tQqbtQ" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Don't forget to [watch the video](https://youtu.be/mrbE0tQqbtQ){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211203/argumentos-em-csharp/){:target="\_blank"}.
 
 ### _Happy coding!_

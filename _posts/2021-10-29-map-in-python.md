@@ -25,6 +25,10 @@ y = [12, 13, 14]
 print(list(map(pow, x, y))) # [4096, 1594323, 268435456]
 ```
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/hCaynUtCvEw" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Don't forget to [watch the video](https://youtu.be/hCaynUtCvEw){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211029/map-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

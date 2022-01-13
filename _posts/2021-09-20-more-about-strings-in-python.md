@@ -35,6 +35,10 @@ print(string.lower())
 '''
 ```
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/S0bUVHt3LE4" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Don't forget to [watch the video](https://youtu.be/S0bUVHt3LE4){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20210920/mais-sobre-as-strings-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

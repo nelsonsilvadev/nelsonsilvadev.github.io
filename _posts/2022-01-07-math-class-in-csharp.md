@@ -51,6 +51,10 @@ namespace Base {
 */
 ```
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/ZCr9-qfctoU" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Don't forget to [watch the video](https://youtu.be/ZCr9-qfctoU){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220107/classe-math-em-csharp/){:target="\_blank"}.
 
 ### _Happy coding!_
