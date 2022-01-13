@@ -3,6 +3,15 @@
   {% include head.html %}
 
   <body>
+    <div id="toggle" class="toggle">
+      <div class="moon"></div>
+    </div>
+
+    <script>
+      const theme = localStorage.getItem('theme') || 'dark';
+      document.body.className = theme;
+    </script>
+
     {% if site.development == false %} {% if site.google.analytics %}
     <noscript>
       <iframe
@@ -21,7 +30,7 @@
       </div>
     </div>
 
-    <a href="#" class="btn hover-animate scrollToTop">
+    <a href="#" class="btn scrollToTop">
       <i class="fa fa-angle-up"></i>
     </a>
 

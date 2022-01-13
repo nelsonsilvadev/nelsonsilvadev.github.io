@@ -41,9 +41,6 @@ $(document).ready(function () {
     },
   });
 
-  $('.loader').delay(400).fadeOut();
-  $('.animationload').delay(400).fadeOut('fast');
-
   $(window).scroll(function () {
     if ($(this).scrollTop() > 400) {
       $('.scrollToTop').fadeIn();
@@ -165,11 +162,6 @@ $(document).ready(function () {
   });
 
   $('.owl-pagination').fadeOut();
-
-  $('.flexslider').flexslider({
-    animation: 'fade',
-    slideshow: false,
-  });
 
   $('.count').each(function () {
     $('.total-numbers .sum').appear(function () {
@@ -341,5 +333,30 @@ $(document).ready(function () {
           })
         : $events.remove();
     }
+  }
+});
+
+let _ = window.localStorage.getItem('theme');
+
+if (_ === 'dark') document.body.classList.add('dark');
+else {
+  $('.moon').toggleClass('sun');
+  $('.toggle').toggleClass('day');
+}
+
+$('.toggle').click(function () {
+  document.body.classList.toggle('dark');
+
+  $('.moon').toggleClass('sun');
+  $('.toggle').toggleClass('day');
+
+  if (_ === 'dark') {
+    window.localStorage.setItem('theme', 'light');
+    _ = 'light';
+    console.log('Light');
+  } else {
+    window.localStorage.setItem('theme', 'dark');
+    _ = 'dark';
+    console.log('Dark');
   }
 });

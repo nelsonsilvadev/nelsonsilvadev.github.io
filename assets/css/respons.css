@@ -39,7 +39,7 @@
 
 @media (max-width: 1199px) {
   #contents .blog .post {
-    border-bottom: 1px solid #ededed;
+    border-bottom: 1px solid var(--post-divider-bg);
   }
 
   #contents .blog .last {

@@ -28,13 +28,6 @@ layout: default
             <h1 class="title title-post">{{ page.title }}</h1>
 
             <div class="entry-byline">
-              <i class="fa fa-user"></i>
-              <span class="entry-author right-border">
-                <a href="#" rel="author">
-                  <span>{{ site.author.name }}</span>
-                </a>
-              </span>
-
               <i class="fa fa-clock-o"></i>
               <time
                 datetime="{{ months }} {{ page.date | date: '%-d' }}, {{
@@ -65,17 +58,11 @@ layout: default
 
           <div class="post-pagination">
             {% if page.previous.url %}
-            <a
-              href="{{ page.previous.url }}"
-              class="btn btn-color-hover hover-animate pre"
-            >
+            <a href="{{ page.previous.url }}" class="btn btn-color-hover pre">
               Previous
             </a>
             {% endif %} {% if page.next.url %}
-            <a
-              href="{{ page.next.url }}"
-              class="btn btn-color-hover hover-animate next"
-            >
+            <a href="{{ page.next.url }}" class="btn btn-color-hover next">
               Next
             </a>
             {% endif %}
