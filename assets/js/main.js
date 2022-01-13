@@ -336,9 +336,7 @@ $(document).ready(function () {
   }
 });
 
-let _ = window.localStorage.getItem('theme');
-
-if (_ === 'dark') document.body.classList.add('dark');
+if (theme === 'dark') document.body.classList.add('dark');
 else {
   $('.moon').toggleClass('sun');
   $('.toggle').toggleClass('day');
@@ -350,13 +348,11 @@ $('.toggle').click(function () {
   $('.moon').toggleClass('sun');
   $('.toggle').toggleClass('day');
 
-  if (_ === 'dark') {
+  if (theme === 'dark') {
     window.localStorage.setItem('theme', 'light');
-    _ = 'light';
-    console.log('Light');
+    theme = 'light';
   } else {
     window.localStorage.setItem('theme', 'dark');
-    _ = 'dark';
-    console.log('Dark');
+    theme = 'dark';
   }
 });

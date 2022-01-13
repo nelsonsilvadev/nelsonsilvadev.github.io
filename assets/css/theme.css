@@ -46,11 +46,11 @@ body {
 }
 
 .categories a {
-  color: var(--archive-text);
+  color: var(--categories-text);
 }
 
 .categories a:hover {
-  color: var(--archive-hover-text);
+  color: var(--categories-text-hover);
 }
 
 .categories h3 {

@@ -45,8 +45,8 @@
   --fancybox-text: #333;
   --fancybox-action: #111;
 
-  --archive-text: #bbb;
-  --archive-text-hover: #1a1a1a;
+  --categories-text: #bbb;
+  --categories-text-hover: #fff;
 
   --post-divider-bg: #e3e3e3;
 
@@ -110,8 +110,8 @@ body {
   --fancybox-text: #fff;
   --fancybox-action: #fff;
 
-  --archive-text: #bbb;
-  --archive-text-hover: #1a1a1a;
+  --categories-text: #bbb;
+  --categories-text-hover: #fff;
 
   --post-divider-bg: #222;
 
