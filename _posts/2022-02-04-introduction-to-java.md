@@ -25,6 +25,10 @@ Some important features about this language that we're going to learn in this se
 - installation of the JDK, which means, Java Development Kit and is necessary for those who want to develop applications and this same kit contains everything that is also necessary to program in Java and has the JRE (Java Runtime Environment) that is used in itself to run the applications then developed in Java;
 - installation of IntelliJ IDEA.
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/3_7hnuzWAG8" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Don't forget to [watch the video](https://youtu.be/3_7hnuzWAG8){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220204/introducao-ao-java/){:target="\_blank"}.
 
 ### _Happy coding!_
