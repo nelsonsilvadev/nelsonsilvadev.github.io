@@ -4,7 +4,7 @@ excerpt: Blog
 title: 'Random Class in Java'
 description: 'Discover how to work with the Random class in the Java programming language. Get answers to your questions with the theory and examples presented.'
 keywords: 'java, random class, random, class, post'
-date: 2022-03-21
+date: 2022-03-29
 categories: [Java]
 ---
 
