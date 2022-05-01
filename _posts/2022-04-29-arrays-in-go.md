@@ -4,7 +4,7 @@ excerpt: Blog
 title: 'Arrays in Go'
 description: 'Discover how to work with arrays in the Go programming language. Get answers to your questions with the theory and examples presented.'
 keywords: 'go, golang, arrays, array, post'
-date: 2021-09-23
+date: 2022-04-29
 categories: [Go]
 ---
 
