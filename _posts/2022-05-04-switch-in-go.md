@@ -4,7 +4,7 @@ excerpt: Blog
 title: 'Switch in Go'
 description: 'Discover how to work with switch in the Go programming language. Get answers to your questions with the theory and examples presented.'
 keywords: 'go, golang, switch, conditions, condition, post'
-date: 2020-05-04
+date: 2022-05-04
 categories: [Go]
 ---
 
