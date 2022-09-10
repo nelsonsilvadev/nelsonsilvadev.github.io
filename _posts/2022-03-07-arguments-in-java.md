@@ -44,6 +44,6 @@ public class Arguments {
   <iframe src="https://www.youtube.com/embed/k76K3UraNhU" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/k76K3UraNhU){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220307/argumentos-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/k76K3UraNhU){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/argumentos-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

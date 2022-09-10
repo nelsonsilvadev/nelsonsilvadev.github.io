@@ -14,11 +14,11 @@ In this post, you will learn how to work with the for loop so that you can use t
 - the for loop iterates depending on the items in a sequence (a list, a string or a given range).
 
 ```python
-organization = 'Caffeine Algorithm'
+community = 'Caffeine Algorithm'
 colors = ['Blue', 'Green', 'Yellow', 'Red', 'Orange']
 
 '''
-  for character in organization:
+  for character in community:
     print('Character:', character)
 
   for color in colors:
@@ -46,6 +46,6 @@ for number in range(1, 11):
   <iframe src="https://www.youtube.com/embed/NHn4AzcKLeA" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/NHn4AzcKLeA){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20210928/ciclo-for-em-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/NHn4AzcKLeA){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/ciclo-for-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

@@ -42,6 +42,6 @@ public class MoreAboutExceptions {
   <iframe src="https://www.youtube.com/embed/b40p72IG4-8" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/b40p72IG4-8){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220318/mais-sobre-as-excecoes-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/b40p72IG4-8){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/mais-sobre-as-excecoes-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

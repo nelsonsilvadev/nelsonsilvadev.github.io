@@ -51,6 +51,6 @@ public class ProcessClass {
   <iframe src="https://www.youtube.com/embed/rd4_ShKKqAo" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/rd4_ShKKqAo){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220404/classe-process-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/rd4_ShKKqAo){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/classe-process-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

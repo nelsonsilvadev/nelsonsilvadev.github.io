@@ -42,6 +42,6 @@ public class Exceptions {
   <iframe src="https://www.youtube.com/embed/RqbnpHEBZgc" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/RqbnpHEBZgc){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220314/excecoes-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/RqbnpHEBZgc){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/excecoes-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

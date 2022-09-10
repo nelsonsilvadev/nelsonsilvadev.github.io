@@ -48,6 +48,6 @@ namespace Base {
   <iframe src="https://www.youtube.com/embed/jW8uXGlFwZo" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/jW8uXGlFwZo){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220111/classe-file-em-csharp/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/jW8uXGlFwZo){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/classe-file-em-csharp/){:target="\_blank"}.
 
 ### _Happy coding!_

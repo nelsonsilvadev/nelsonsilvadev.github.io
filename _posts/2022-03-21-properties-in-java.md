@@ -70,6 +70,6 @@ public class Properties {
   <iframe src="https://www.youtube.com/embed/M9PXEZdgm48" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/M9PXEZdgm48){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220321/propriedades-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/M9PXEZdgm48){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/propriedades-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

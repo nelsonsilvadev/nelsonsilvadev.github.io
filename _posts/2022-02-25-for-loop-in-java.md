@@ -51,6 +51,6 @@ public class ForLoop {
   <iframe src="https://www.youtube.com/embed/aKgPE8bar_Y" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/aKgPE8bar_Y){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220225/ciclo-for-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/aKgPE8bar_Y){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/ciclo-for-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

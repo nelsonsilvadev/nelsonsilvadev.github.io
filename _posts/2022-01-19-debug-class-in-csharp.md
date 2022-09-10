@@ -41,6 +41,6 @@ namespace Base {
   <iframe src="https://www.youtube.com/embed/DU1TJ_QGS_s" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/DU1TJ_QGS_s){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220119/classe-debug-em-csharp/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/DU1TJ_QGS_s){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/classe-debug-em-csharp/){:target="\_blank"}.
 
 ### _Happy coding!_

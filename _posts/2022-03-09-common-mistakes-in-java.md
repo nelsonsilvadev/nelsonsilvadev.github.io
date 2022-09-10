@@ -46,6 +46,6 @@ public class CommonMistakes {
   <iframe src="https://www.youtube.com/embed/HCclW4TLSyY" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/HCclW4TLSyY){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220309/erros-comuns-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/HCclW4TLSyY){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/erros-comuns-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

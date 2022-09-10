@@ -5,7 +5,7 @@ url: 'https://nelsonsilvadev.com'
 
 development: false
 
-organization:
+community:
   name: 'Caffeine Algorithm'
   email: 'contacto@caffeinealgorithm.com'
   youtube_id: 'UCdt_qK8rmpxrq942ZFIqxvQ'
@@ -59,7 +59,7 @@ defaults:
 destination: _site
 paginate: 6
 paginate_path: /blog/page/:num/
-permalink: /blog/:year:month:day/:title/
+permalink: /blog/:title/
 
 markdown: kramdown
 kramdown:

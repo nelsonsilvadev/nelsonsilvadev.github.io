@@ -27,6 +27,6 @@ print('Caffeine', 'Algorithm') # Caffeine Algorithm
   <iframe src="https://www.youtube.com/embed/8lP9h4gaKYA" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/8lP9h4gaKYA){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20210914/funcao-print-e-strings-em-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/8lP9h4gaKYA){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/funcao-print-e-strings-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

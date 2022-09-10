@@ -61,6 +61,6 @@ namespace Base {
   <iframe src="https://www.youtube.com/embed/r9h6UzvoRCE" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/r9h6UzvoRCE){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220127/metodos-ii-em-csharp/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/r9h6UzvoRCE){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/metodos-ii-em-csharp/){:target="\_blank"}.
 
 ### _Happy coding!_

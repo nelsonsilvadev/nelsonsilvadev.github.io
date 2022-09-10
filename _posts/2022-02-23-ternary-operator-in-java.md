@@ -42,6 +42,6 @@ public class TernaryOperator {
   <iframe src="https://www.youtube.com/embed/rCUwMA4JHHk" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/rCUwMA4JHHk){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220223/operador-ternario-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/rCUwMA4JHHk){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/operador-ternario-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

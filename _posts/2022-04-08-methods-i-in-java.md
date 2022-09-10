@@ -52,6 +52,6 @@ public class MethodsI {
   <iframe src="https://www.youtube.com/embed/TAKYXCKl4VE" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/TAKYXCKl4VE){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220408/metodos-i-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/TAKYXCKl4VE){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/metodos-i-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

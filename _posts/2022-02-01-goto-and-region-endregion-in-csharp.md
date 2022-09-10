@@ -59,6 +59,6 @@ namespace Base {
   <iframe src="https://www.youtube.com/embed/lbgVj7NBFAg" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/lbgVj7NBFAg){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220201/goto-e-region-endregion-em-csharp/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/lbgVj7NBFAg){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/goto-e-region-endregion-em-csharp/){:target="\_blank"}.
 
 ### _Happy coding!_

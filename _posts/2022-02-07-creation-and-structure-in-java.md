@@ -17,6 +17,6 @@ In this post, you will not learn how to create a project and/or make the entire 
   <iframe src="https://www.youtube.com/embed/PEuAaqPyu2g" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/PEuAaqPyu2g){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220207/criacao-e-estrutura-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/PEuAaqPyu2g){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/criacao-e-estrutura-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

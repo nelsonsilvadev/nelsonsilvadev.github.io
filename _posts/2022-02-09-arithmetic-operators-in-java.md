@@ -34,6 +34,6 @@ public class ArithmeticOperators {
   <iframe src="https://www.youtube.com/embed/_USlZetbXrA" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/_USlZetbXrA){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220209/operadores-aritmeticos-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/_USlZetbXrA){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/operadores-aritmeticos-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

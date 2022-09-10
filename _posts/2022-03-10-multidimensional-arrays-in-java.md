@@ -52,6 +52,6 @@ public class MultidimensionalArrays {
   <iframe src="https://www.youtube.com/embed/tF6U5grcYCE" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/tF6U5grcYCE){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220310/arrays-multidimensionais-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/tF6U5grcYCE){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/arrays-multidimensionais-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

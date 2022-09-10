@@ -40,11 +40,11 @@ public class Abstract {
 }
 
 abstract class ClassX {
-  public static String organization = "Caffeine Algorithm";
+  public static String community = "Caffeine Algorithm";
   public static List<String> countries = new ArrayList<>();
 
   public static void informationX() {
-    for (char character : organization.toCharArray())
+    for (char character : community.toCharArray())
       System.out.printf("Character: %c\n", character);
   }
 
@@ -71,6 +71,6 @@ class ClassY extends ClassX {
   <iframe src="https://www.youtube.com/embed/ZsiTd23CfUs" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/ZsiTd23CfUs){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220325/abstract-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/ZsiTd23CfUs){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/abstract-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

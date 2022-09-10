@@ -60,6 +60,6 @@ public class FileReaderClass {
   <iframe src="https://www.youtube.com/embed/22Np9fJQv-E" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/22Np9fJQv-E){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220401/classe-filereader-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/22Np9fJQv-E){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/classe-filereader-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

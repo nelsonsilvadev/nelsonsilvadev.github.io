@@ -51,6 +51,6 @@ namespace Base {
   <iframe src="https://www.youtube.com/embed/uMbksPhe4m0" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/uMbksPhe4m0){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211216/mais-sobre-as-variaveis-em-csharp/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/uMbksPhe4m0){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/mais-sobre-as-variaveis-em-csharp/){:target="\_blank"}.
 
 ### _Happy coding!_

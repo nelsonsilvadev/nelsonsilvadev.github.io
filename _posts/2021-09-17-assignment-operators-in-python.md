@@ -43,6 +43,6 @@ print('x = x ** 2:', x) # x = x ** 2: 0
   <iframe src="https://www.youtube.com/embed/gV9e6zsEO5M" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/gV9e6zsEO5M){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20210917/operadores-de-atribuicao-em-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/gV9e6zsEO5M){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/operadores-de-atribuicao-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

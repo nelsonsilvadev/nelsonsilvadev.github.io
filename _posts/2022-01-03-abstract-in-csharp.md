@@ -39,7 +39,7 @@ namespace Base {
   }
 
   abstract class ClasseX {
-    public static string organization = "Caffeine Algorithm";
+    public static string community = "Caffeine Algorithm";
     public static List<string> countries = new List<string>() {
       "Portugal",
       "Brazil",
@@ -51,7 +51,7 @@ namespace Base {
     };
 
     public static void InformationX() {
-      foreach (var character in organization)
+      foreach (var character in community)
         Console.WriteLine($"Character: {character}");
     }
 
@@ -71,6 +71,6 @@ namespace Base {
   <iframe src="https://www.youtube.com/embed/kic0anFXVUs" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/kic0anFXVUs){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220103/abstract-em-csharp/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/kic0anFXVUs){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/abstract-em-csharp/){:target="\_blank"}.
 
 ### _Happy coding!_

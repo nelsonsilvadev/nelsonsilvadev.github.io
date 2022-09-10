@@ -60,6 +60,6 @@ func main() {
   <iframe src="https://www.youtube.com/embed/w7hXnuh5G2E" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/w7hXnuh5G2E){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220505/ciclo-for-em-go/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/w7hXnuh5G2E){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/ciclo-for-em-go/){:target="\_blank"}.
 
 ### _Happy coding!_

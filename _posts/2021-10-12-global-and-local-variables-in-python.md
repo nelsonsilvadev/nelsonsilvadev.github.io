@@ -34,6 +34,6 @@ print('Access outside the function:', access)
   <iframe src="https://www.youtube.com/embed/K6-_AwbMk34" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/K6-_AwbMk34){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211012/variaveis-globais-e-locais-em-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/K6-_AwbMk34){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/variaveis-globais-e-locais-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

@@ -42,6 +42,6 @@ public class ScannerClass {
   <iframe src="https://www.youtube.com/embed/d1Fp1_jjPsE" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/d1Fp1_jjPsE){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220216/classe-scanner-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/d1Fp1_jjPsE){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/classe-scanner-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

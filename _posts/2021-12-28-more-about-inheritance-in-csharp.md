@@ -62,6 +62,6 @@ namespace Base {
   <iframe src="https://www.youtube.com/embed/bGmyHB0Acvw" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/bGmyHB0Acvw){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211228/mais-sobre-a-heranca-em-csharp/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/bGmyHB0Acvw){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/mais-sobre-a-heranca-em-csharp/){:target="\_blank"}.
 
 ### _Happy coding!_

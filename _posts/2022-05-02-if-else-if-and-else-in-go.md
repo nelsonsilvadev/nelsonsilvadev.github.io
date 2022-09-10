@@ -46,6 +46,6 @@ func main() {
   <iframe src="https://www.youtube.com/embed/B8Lg8TbighI" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/B8Lg8TbighI){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220502/if-else-if-and-else-em-go/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/B8Lg8TbighI){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/if-else-if-and-else-em-go/){:target="\_blank"}.
 
 ### _Happy coding!_

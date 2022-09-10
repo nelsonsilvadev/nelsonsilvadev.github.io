@@ -28,6 +28,6 @@ print('Addition result:', addition()) # Addition result: 55
   <iframe src="https://www.youtube.com/embed/qj5fi4F1e8g" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/qj5fi4F1e8g){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211004/return-em-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/qj5fi4F1e8g){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/return-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

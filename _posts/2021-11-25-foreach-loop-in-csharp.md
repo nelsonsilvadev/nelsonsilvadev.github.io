@@ -20,7 +20,7 @@ using System.Collections.Generic;
 namespace Base {
   class ForeachLoop {
     public void Run() {
-      string organization = "Caffeine Algorithm";
+      string community = "Caffeine Algorithm";
       List<string> countries = new List<string>() {
         "Portugal",
         "Brazil",
@@ -32,7 +32,7 @@ namespace Base {
       };
 
       /*
-        foreach (char character in organization) {
+        foreach (char character in community) {
           Console.WriteLine($"Character: {character}");
         }
       */
@@ -59,6 +59,6 @@ namespace Base {
   <iframe src="https://www.youtube.com/embed/seMBMqxe8KA" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/seMBMqxe8KA){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211125/ciclo-foreach-em-csharp/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/seMBMqxe8KA){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/ciclo-foreach-em-csharp/){:target="\_blank"}.
 
 ### _Happy coding!_

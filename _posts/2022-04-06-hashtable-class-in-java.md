@@ -47,6 +47,6 @@ public class HashtableClass {
   <iframe src="https://www.youtube.com/embed/ZqsM5Ay_PgA" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/ZqsM5Ay_PgA){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220406/classe-hashtable-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/ZqsM5Ay_PgA){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/classe-hashtable-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

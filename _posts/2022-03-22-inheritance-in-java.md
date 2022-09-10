@@ -54,6 +54,6 @@ class Son extends Dad {
   <iframe src="https://www.youtube.com/embed/wFJN_36mi9M" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/wFJN_36mi9M){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220322/heranca-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/wFJN_36mi9M){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/heranca-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

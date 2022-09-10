@@ -36,6 +36,6 @@ func main() {
   <iframe src="https://www.youtube.com/embed/LUq1G_MLY84" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/LUq1G_MLY84){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220427/comentarios-em-go/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/LUq1G_MLY84){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/comentarios-em-go/){:target="\_blank"}.
 
 ### _Happy coding!_

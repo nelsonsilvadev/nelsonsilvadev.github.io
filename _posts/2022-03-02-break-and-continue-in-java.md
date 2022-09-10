@@ -68,6 +68,6 @@ public class BreakAndContinue {
   <iframe src="https://www.youtube.com/embed/Wbe6-a8go0o" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/Wbe6-a8go0o){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220302/break-e-continue-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/Wbe6-a8go0o){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/break-e-continue-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

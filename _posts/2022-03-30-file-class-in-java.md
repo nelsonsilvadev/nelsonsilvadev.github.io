@@ -54,6 +54,6 @@ public class FileClass {
   <iframe src="https://www.youtube.com/embed/_d2WykDSZyM" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/_d2WykDSZyM){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220330/classe-file-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/_d2WykDSZyM){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/classe-file-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

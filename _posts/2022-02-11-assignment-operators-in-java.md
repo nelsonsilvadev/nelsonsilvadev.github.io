@@ -45,6 +45,6 @@ public class AssignmentOperators {
   <iframe src="https://www.youtube.com/embed/GQVf0VwJh9c" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/GQVf0VwJh9c){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220211/operadores-de-atribuicao-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/GQVf0VwJh9c){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/operadores-de-atribuicao-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

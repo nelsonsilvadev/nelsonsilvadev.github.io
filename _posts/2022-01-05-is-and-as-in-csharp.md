@@ -18,14 +18,14 @@ using System;
 
 namespace Base {
   class IsAndAs {
-    private string organization = "Caffeine Algorithm", name = string.Empty;
+    private string community = "Caffeine Algorithm", name = string.Empty;
     private object _name = "Nelson Silva";
 
     public void Run() {
-      if (organization is string)
-        Console.WriteLine("The attribute \"organization\" is of type string.");
+      if (community is string)
+        Console.WriteLine("The attribute \"community\" is of type string.");
       else
-        Console.WriteLine("The attribute \"organization\" is not of type string.");
+        Console.WriteLine("The attribute \"community\" is not of type string.");
 
       name = _name as string;
 
@@ -36,7 +36,7 @@ namespace Base {
 }
 
 /*
-  The attribute "organization" is of type string.
+  The attribute "community" is of type string.
   Name: Nelson Silva
 */
 ```
@@ -45,6 +45,6 @@ namespace Base {
   <iframe src="https://www.youtube.com/embed/2kgNJVpXB40" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/2kgNJVpXB40){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220105/is-e-as-em-csharp/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/2kgNJVpXB40){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/is-e-as-em-csharp/){:target="\_blank"}.
 
 ### _Happy coding!_

@@ -51,6 +51,6 @@ public class RandomClass {
   <iframe src="https://www.youtube.com/embed/-ka_3iD3V4Q" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/-ka_3iD3V4Q){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220329/classe-random-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/-ka_3iD3V4Q){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/classe-random-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

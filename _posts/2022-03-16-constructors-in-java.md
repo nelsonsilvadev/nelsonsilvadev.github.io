@@ -73,6 +73,6 @@ public class Constructors {
   <iframe src="https://www.youtube.com/embed/vZjw1DbKVsY" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/vZjw1DbKVsY){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220316/construtores-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/vZjw1DbKVsY){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/construtores-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

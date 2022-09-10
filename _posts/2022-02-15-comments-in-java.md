@@ -36,6 +36,6 @@ public class Comments {
   <iframe src="https://www.youtube.com/embed/skX2jrCiqdI" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/skX2jrCiqdI){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220215/comentarios-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/skX2jrCiqdI){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/comentarios-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

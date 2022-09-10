@@ -53,6 +53,6 @@ public class MathClass {
   <iframe src="https://www.youtube.com/embed/cpzjF8rXdI0" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/cpzjF8rXdI0){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220328/classe-math-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/cpzjF8rXdI0){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/classe-math-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

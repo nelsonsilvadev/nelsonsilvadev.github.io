@@ -27,6 +27,6 @@ print('Age:', age)
   <iframe src="https://www.youtube.com/embed/6hVTr0bcBc0" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/6hVTr0bcBc0){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20210922/funcao-input-em-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/6hVTr0bcBc0){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/funcao-input-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

@@ -28,6 +28,6 @@ print('Addition result:', addition(25, 30, 45)) # Addition result: 100
   <iframe src="https://www.youtube.com/embed/0bSYL5vnh6k" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/0bSYL5vnh6k){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211028/lambda-em-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/0bSYL5vnh6k){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/lambda-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

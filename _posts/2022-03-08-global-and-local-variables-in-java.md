@@ -41,6 +41,6 @@ public class GlobalAndLocalVariables {
   <iframe src="https://www.youtube.com/embed/hgVFRjqnSPM" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/hgVFRjqnSPM){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220308/variaveis-globais-e-locais-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/hgVFRjqnSPM){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/variaveis-globais-e-locais-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

@@ -60,6 +60,6 @@ public class FileWriterClass {
   <iframe src="https://www.youtube.com/embed/iohYifid7pM" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/iohYifid7pM){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220330/classe-filewriter-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/iohYifid7pM){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/classe-filewriter-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

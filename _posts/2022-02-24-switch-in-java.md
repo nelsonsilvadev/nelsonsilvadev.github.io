@@ -45,6 +45,6 @@ public class Switch {
   <iframe src="https://www.youtube.com/embed/445d_X4N6OI" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/445d_X4N6OI){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220224/switch-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/445d_X4N6OI){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/switch-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

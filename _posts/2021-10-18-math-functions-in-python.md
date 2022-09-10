@@ -38,6 +38,6 @@ print('Result of the pow() function:', pow(2, 5)) # Result of the pow() function
   <iframe src="https://www.youtube.com/embed/yA_QteaN0vs" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/yA_QteaN0vs){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211018/funcoes-matematicas-em-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/yA_QteaN0vs){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/funcoes-matematicas-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

@@ -34,6 +34,6 @@ func main() {
   <iframe src="https://www.youtube.com/embed/PUpojD6_Swo" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/PUpojD6_Swo){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220420/operadores-aritmeticos-em-go/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/PUpojD6_Swo){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/operadores-aritmeticos-em-go/){:target="\_blank"}.
 
 ### _Happy coding!_

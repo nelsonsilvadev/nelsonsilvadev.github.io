@@ -31,6 +31,6 @@ print('pi value:', pi) # pi value: 3.141592653589793
   <iframe src="https://www.youtube.com/embed/HuvfFhMmsbI" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/HuvfFhMmsbI){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211015/modulos-em-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/HuvfFhMmsbI){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/modulos-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

@@ -26,6 +26,6 @@ doorState(False) # The door is closed.
   <iframe src="https://www.youtube.com/embed/dWk0XVIto3w" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/dWk0XVIto3w){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211007/argumentos-padrao-em-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/dWk0XVIto3w){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/argumentos-padrao-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

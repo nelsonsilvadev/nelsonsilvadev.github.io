@@ -40,6 +40,6 @@ In short, I hope you like it and that we can grow together.
   <iframe src="https://www.youtube.com/embed/6RZhVhJuzv8" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/6RZhVhJuzv8){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20210910/o-inicio/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/6RZhVhJuzv8){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/o-inicio/){:target="\_blank"}.
 
 ### _Happy coding!_

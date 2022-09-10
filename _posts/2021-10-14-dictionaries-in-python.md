@@ -30,6 +30,6 @@ print(ages.values()) # dict_values([25, 100, 68])
   <iframe src="https://www.youtube.com/embed/Ux328aoXQYM" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/Ux328aoXQYM){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211014/dicionarios-em-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/Ux328aoXQYM){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/dicionarios-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

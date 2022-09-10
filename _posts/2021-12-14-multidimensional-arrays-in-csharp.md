@@ -54,6 +54,6 @@ namespace Base {
   <iframe src="https://www.youtube.com/embed/iv2-0xW8DpU" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/iv2-0xW8DpU){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211214/arrays-multidimensionais-em-csharp/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/iv2-0xW8DpU){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/arrays-multidimensionais-em-csharp/){:target="\_blank"}.
 
 ### _Happy coding!_

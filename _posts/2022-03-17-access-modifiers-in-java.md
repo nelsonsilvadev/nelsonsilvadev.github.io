@@ -31,6 +31,6 @@ public class AccessModifiers {
   <iframe src="https://www.youtube.com/embed/e19jPpY8JfA" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/e19jPpY8JfA){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220317/modificadores-de-acesso-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/e19jPpY8JfA){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/modificadores-de-acesso-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

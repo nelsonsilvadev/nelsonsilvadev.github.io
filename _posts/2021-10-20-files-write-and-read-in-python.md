@@ -40,6 +40,6 @@ readFile.close()
   <iframe src="https://www.youtube.com/embed/Hh8eV7n5ieg" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/Hh8eV7n5ieg){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211020/ficheiros-escrever-e-ler-em-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/Hh8eV7n5ieg){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/ficheiros-escrever-e-ler-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

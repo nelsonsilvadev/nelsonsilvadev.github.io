@@ -79,6 +79,6 @@ namespace Base {
   <iframe src="https://www.youtube.com/embed/QjvCyY5a2BM" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/QjvCyY5a2BM){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211224/propriedades-em-csharp/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/QjvCyY5a2BM){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/propriedades-em-csharp/){:target="\_blank"}.
 
 ### _Happy coding!_

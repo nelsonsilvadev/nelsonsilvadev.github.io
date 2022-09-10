@@ -37,6 +37,6 @@ public class Return {
   <iframe src="https://www.youtube.com/embed/hnoGygkv9fw" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/hnoGygkv9fw){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220304/return-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/hnoGygkv9fw){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/return-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

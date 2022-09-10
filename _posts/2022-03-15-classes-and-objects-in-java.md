@@ -55,6 +55,6 @@ public class ClassesAndObjects {
   <iframe src="https://www.youtube.com/embed/ktbsyAHPBv0" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/ktbsyAHPBv0){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220315/classes-e-objetos-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/ktbsyAHPBv0){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/classes-e-objetos-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

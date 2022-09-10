@@ -39,6 +39,6 @@ namespace Base {
   <iframe src="https://www.youtube.com/embed/-WPMAO60yQ8" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/-WPMAO60yQ8){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211202/return-em-csharp/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/-WPMAO60yQ8){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/return-em-csharp/){:target="\_blank"}.
 
 ### _Happy coding!_

@@ -56,6 +56,6 @@ namespace Base {
   <iframe src="https://www.youtube.com/embed/BKogMn09eBo" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/BKogMn09eBo){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220120/classe-arraylist-em-csharp/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/BKogMn09eBo){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/classe-arraylist-em-csharp/){:target="\_blank"}.
 
 ### _Happy coding!_

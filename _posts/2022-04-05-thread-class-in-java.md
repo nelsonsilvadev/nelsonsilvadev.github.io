@@ -89,6 +89,6 @@ public class ThreadClass {
   <iframe src="https://www.youtube.com/embed/Crk467wQmQg" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/Crk467wQmQg){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220405/classe-thread-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/Crk467wQmQg){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/classe-thread-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

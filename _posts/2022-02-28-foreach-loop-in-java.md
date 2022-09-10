@@ -51,6 +51,6 @@ public class ForeachLoop {
   <iframe src="https://www.youtube.com/embed/X8hVHwqEiKI" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/X8hVHwqEiKI){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220228/ciclo-foreach-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/X8hVHwqEiKI){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/ciclo-foreach-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

@@ -25,6 +25,6 @@ It is also important to say that Go is a programming language that essentially s
   <iframe src="https://www.youtube.com/embed/zkpwb3CbUF0" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/zkpwb3CbUF0){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220418/introducao-ao-go/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/zkpwb3CbUF0){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/introducao-ao-go/){:target="\_blank"}.
 
 ### _Happy coding!_

@@ -42,6 +42,6 @@ public class PrintlnFunctionAndStrings {
   <iframe src="https://www.youtube.com/embed/GZblJ-SqU_s" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/GZblJ-SqU_s){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220208/funcao-println-e-strings-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/GZblJ-SqU_s){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/funcao-println-e-strings-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

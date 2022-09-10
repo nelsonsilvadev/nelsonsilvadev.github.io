@@ -48,6 +48,6 @@ public class Arrays {
   <iframe src="https://www.youtube.com/embed/aD7U69fw9hQ" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/aD7U69fw9hQ){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220217/arrays-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/aD7U69fw9hQ){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/arrays-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

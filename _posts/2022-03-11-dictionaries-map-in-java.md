@@ -48,6 +48,6 @@ public class DictionariesMap {
   <iframe src="https://www.youtube.com/embed/R-ueRH4ySug" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/R-ueRH4ySug){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220311/dicionarios-map-em-java/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/R-ueRH4ySug){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/dicionarios-map-em-java/){:target="\_blank"}.
 
 ### _Happy coding!_

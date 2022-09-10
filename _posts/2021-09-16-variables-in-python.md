@@ -32,6 +32,6 @@ print('boolean:', boolean) # boolean: True
   <iframe src="https://www.youtube.com/embed/fLeUijcIAiw" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/fLeUijcIAiw){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20210916/variaveis-em-python/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/fLeUijcIAiw){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/variaveis-em-python/){:target="\_blank"}.
 
 ### _Happy coding!_

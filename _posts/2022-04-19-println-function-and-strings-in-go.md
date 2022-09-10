@@ -32,6 +32,6 @@ func main() {
   <iframe src="https://www.youtube.com/embed/cCq9DRRNX5A" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/cCq9DRRNX5A){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20220419/funcao-print-e-strings-em-go/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/cCq9DRRNX5A){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/funcao-print-e-strings-em-go/){:target="\_blank"}.
 
 ### _Happy coding!_

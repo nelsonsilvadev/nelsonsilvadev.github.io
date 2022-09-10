@@ -41,6 +41,6 @@ namespace Base {
   <iframe src="https://www.youtube.com/embed/-C6_spcZYAs" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Don't forget to [watch the video](https://youtu.be/-C6_spcZYAs){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/20211115/funcao-readline-em-csharp/){:target="\_blank"}.
+Don't forget to [watch the video](https://youtu.be/-C6_spcZYAs){:target="\_blank"} and you can always read this post [in Portuguese](https://caffeinealgorithm.com/blog/funcao-readline-em-csharp/){:target="\_blank"}.
 
 ### _Happy coding!_
