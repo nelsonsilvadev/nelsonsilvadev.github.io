@@ -45,8 +45,8 @@
   --fancybox-text: #333;
   --fancybox-action: #111;
 
-  --categories-text: #bbb;
-  --categories-text-hover: #fff;
+  --categories-text: #707070;
+  --categories-text-hover: #111;
 
   --post-divider-bg: #e3e3e3;
 
@@ -419,7 +419,7 @@ td > a:active {
 .title-post {
   margin-bottom: 0px;
   margin-top: -10px;
-  font-size: 28px;
+  font-size: 27px;
 }
 
 .title-blog a,
@@ -1377,6 +1377,7 @@ a.icons-menu-button:focus,
 
 .podrt-desc img {
   width: 100%;
+  object-fit: cover;
   border-bottom-width: 1px;
   border-bottom-style: solid;
 }
