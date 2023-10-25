@@ -7,7 +7,7 @@ development: false
 
 community:
   name: 'Caffeine Algorithm'
-  email: 'contacto@caffeinealgorithm.com'
+  email: 'contact@nelsonsilvadev.com'
   youtube_id: 'UCdt_qK8rmpxrq942ZFIqxvQ'
   youtube_name: 'CaffeineAlgorithm'
   linkedin: 'caffeinealgorithm'
@@ -23,7 +23,7 @@ author:
   phone_number: '+351913416022'
   location: 'Porto, Portugal'
   email: 'contact@nelsonsilvadev.com'
-  bio: 'A human. Being. Coffee lover.'
+  bio: 'Elegant coder, stack versatile, user first.'
   linkedin: 'nelsonsilvadev'
   github: 'nelsonsilvadev'
   instagram: 'nelsonsilvadev'
@@ -47,27 +47,7 @@ social:
 
 locale: 'en_US'
 
-seo_paginator_message: 'Page %<current>s of %<total>s | '
-
-defaults:
-  - scope:
-      path: ''
-      type: 'posts'
-    values:
-      layout: 'post'
-
 destination: _site
-paginate: 6
-paginate_path: /blog/page/:num/
-permalink: /blog/:title/
-
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    css_class: 'syntax'
 
 plugins: ['jekyll-paginate', 'jekyll-sitemap', 'jekyll-seo-tag']
 exclude: ['README.md']
