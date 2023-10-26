@@ -1,6 +1,7 @@
 @media (max-width: 1230px) {
   #wrapper {
     width: 100%;
+    border-radius: 0;
   }
 
   .home-content img {

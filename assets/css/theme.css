@@ -4,14 +4,14 @@ body {
 }
 
 .icons {
-  color: #ffffff;
-  border-color: #0089d5;
+  color: #f8fafc;
+  border-color: #0ea5e9;
   background-color: var(--blue);
 }
 
 .icons:hover {
-  background-color: #0089d5;
-  color: #ffffff;
+  background-color: #0284c7;
+  color: #f8fafc;
 }
 
 .btn {
@@ -23,7 +23,7 @@ body {
 .btn:hover {
   border-color: var(--blue-hover);
   background-color: var(--blue);
-  color: #ffffff;
+  color: #f8fafc;
 }
 
 .dark .btn:hover {
@@ -37,12 +37,12 @@ body {
 .btn-color {
   border-color: var(--blue-hover);
   background-color: var(--blue);
-  color: #ffffff;
+  color: #f8fafc;
 }
 
 .btn-color:hover {
   background-color: var(--blue-hover);
-  color: #ffffff;
+  color: #f8fafc;
 }
 
 .categories a {
@@ -63,7 +63,7 @@ body {
 }
 
 .block-grey {
-  background-color: var(--bg);
+  background-color: var(--block-bg);
   border-color: var(--content-border);
 }
 
@@ -154,28 +154,28 @@ body {
 
 .icons-menu-button,
 .icons-menu-toggle-button {
-  color: #fff;
+  color: #f8fafc;
 }
 
 .icons-menu-button:hover,
 .icons-menu-toggle-button:hover {
-  color: #fff;
+  color: #f8fafc;
 }
 
 .icons-menu-button {
   background-color: var(--blue);
-  color: #ffffff;
+  color: #f8fafc;
 }
 
 a.icons-menu-button {
-  color: #ffffff;
+  color: #f8fafc;
   border-color: #058dd7;
 }
 
 a.icons-menu-button:hover,
 a.icons-menu-button:focus,
 .icons-menu-toggle-button:hover {
-  color: #ffffff;
+  color: #f8fafc;
   background-color: #058dd7;
   border-color: #058dd7;
 }
@@ -206,7 +206,7 @@ a.icons-menu-button:focus,
 .footer a:hover .icons {
   border-color: var(--blue-hover);
   background-color: var(--blue);
-  color: #ffffff;
+  color: #f8fafc;
 }
 
 .dark .footer a:hover .icons {
@@ -272,7 +272,7 @@ a.icons-menu-button:focus,
 }
 
 .owl-theme .owl-controls .owl-buttons div:hover {
-  color: #ffffff;
+  color: #f8fafc;
   border-color: var(--blue-hover);
   background-color: var(--blue);
 }
@@ -289,7 +289,7 @@ a.icons-menu-button:focus,
 
 .skills .progress-bar span {
   color: #333333;
-  background: #fff;
+  background: #f8fafc;
   border-color: #d6d6d6;
 }
 
@@ -318,52 +318,53 @@ a.icons-menu-button:focus,
 }
 
 .portfolio li:hover {
-  border-color: #0089d5;
+  border-color: #0ea5e9;
 }
 
 .portfolio li.active {
-  border-color: #0089d5;
-  color: #ffffff;
+  border-color: #0ea5e9;
+  color: #f8fafc;
   background-color: var(--blue);
 }
 
 .portfolio-item .port-item-cont {
-  background: rgba(0, 182, 249, 0.9);
+  background: #0ea5e9cc;
 }
 
 .portfolio-item:hover .within,
 .portfolio-item .within.touch {
-  border-color: #0089d5;
+  border-color: #0ea5e9;
+  border-radius: 24px;
 }
 
 .portfolio-item .title {
-  color: #fff;
+  color: #f8fafc;
 }
 
 .portfolio-item .desc {
-  color: #fff;
+  color: #f8fafc;
 }
 
 .portfolio-item a.view-work {
-  background-color: #ffffff;
+  background-color: #f8fafc;
   color: #333333;
-  border-color: #0089d5;
+  border-color: #0ea5e9;
 }
 
 .portfolio-item a.view-work:hover {
-  background-color: #0089d5;
-  color: #ffffff;
+  background-color: #0ea5e9;
+  color: #f8fafc;
 }
 
 .portfolio-item a.view-video {
-  background-color: #ffffff;
+  background-color: #f8fafc;
   color: #333333;
-  border-color: #0089d5;
+  border-color: #0ea5e9;
 }
 
 .portfolio-item a.view-video:hover {
-  background-color: #0089d5;
-  color: #ffffff;
+  background-color: #0ea5e9;
+  color: #f8fafc;
 }
 
 .podrt-desc {
@@ -383,10 +384,10 @@ a.icons-menu-button:focus,
 }
 
 .fancybox-inner {
-  background-color: #fff;
   border-color: #959595;
   box-shadow: 0 0 50px var(--shadow);
   height: 100%;
+  background: transparent;
 }
 
 .fancybox-overlay {
@@ -405,6 +406,8 @@ a.icons-menu-button:focus,
 
 .fancybox-skin {
   color: var(--fancybox-text);
+  border-radius: 24px;
+  background-color: transparent;
 }
 
 .hi-icon-effect-8 .hi-icon {
@@ -449,7 +452,7 @@ a.icons-menu-button:focus,
 }
 
 .blog .post .btn-color-hover:hover {
-  color: #ffffff;
+  color: #f8fafc;
   border-color: var(--blue-hover);
   background-color: var(--blue);
 }
@@ -489,7 +492,7 @@ a.icons-menu-button:focus,
 
 .blog .post-comment-txt:after {
   border-color: rgba(255, 255, 255, 0);
-  border-right-color: #ffffff;
+  border-right-color: #f8fafc;
 }
 
 .blog .post-comment-txt:before {
@@ -520,6 +523,7 @@ a.icons-menu-button:focus,
 .total-numbers .iconspace {
   color: var(--blue);
   border-color: var(--content-border);
+  border-radius: 10px;
 }
 
 .total-numbers .iconspace:after {
