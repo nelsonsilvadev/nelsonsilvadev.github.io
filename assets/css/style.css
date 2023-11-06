@@ -13,7 +13,7 @@
   --sidebar-title-text: #1e293b95;
 
   --circle-text: #0ea5e9;
-  --circle-bg: #e2e8f0;
+  --circle-bg: #cbd5e150;
   --circle-inside-bg: #0ea5e9;
 
   --navigation-text: #1e293b;
@@ -22,28 +22,29 @@
 
   --owl-controls-text: #1e293b95;
   --owl-controls-bg: #f8fafc;
-  --owl-controls-border: #cbd5e1;
+  --owl-controls-border: #cbd5e150;
 
   --icon-text: #1e293b95;
   --icon-bg: #f8fafc;
-  --icon-border: #cbd5e1;
+  --icon-border: #cbd5e150;
 
   --blue: #0ea5e9;
   --blue-hover: #0284c7;
 
   --content-bg: #f8fafc;
   --content-border: #cbd5e150;
+  --content-shadow: #1e293b10;
 
-  --fancybox-text: #1e293b95;
-  --fancybox-action: #2563eb;
+  --fancybox-text: #1e293b;
+  --fancybox-action: #1e293b;
 
   --block-bg: #f8fafc;
 
-  --star-border: #93c5fd;
+  --star-border: #0ea5e9;
 
   --bold-text: #102f4c;
 
-  --shadow: #64748b;
+  --shadow: #cbd5e150;
 }
 
 * {
@@ -88,6 +89,7 @@ body {
 
   --content-bg: #0f172a;
   --content-border: #1e293b95;
+  --content-shadow: #f8fafc10;
 
   --fancybox-text: #f8fafc;
   --fancybox-action: #f8fafc;
@@ -360,7 +362,7 @@ td > a:active {
   padding: 0px 20px;
   line-height: 38px;
   font-size: 17px;
-  border-radius: 5px;
+  border-radius: 100px;
   margin-right: 10px;
   margin-top: 10px;
 }
@@ -1207,8 +1209,9 @@ a.icons-menu-button:focus,
   margin-left: 15px;
   margin-right: 15px;
   position: relative;
-  border-width: 0px;
+  border-width: 1px;
   border-style: solid;
+  border-radius: 24px;
 }
 
 .portfolio ul,
@@ -1273,7 +1276,7 @@ a.icons-menu-button:focus,
   padding: 7px 20px;
   border-width: 1px;
   border-style: solid;
-  border-radius: 5px;
+  border-radius: 100px;
 }
 
 .portfolio-item a.view-video {

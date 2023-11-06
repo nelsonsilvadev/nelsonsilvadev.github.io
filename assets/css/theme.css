@@ -86,7 +86,7 @@ body {
 #wrapper {
   border-color: var(--content-border);
   background-color: var(--content-bg);
-  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 50px var(--content-shadow);
 }
 
 .profile .head,
