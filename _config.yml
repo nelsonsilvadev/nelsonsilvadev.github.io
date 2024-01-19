@@ -1,53 +1,52 @@
-title: 'Nelson Silva'
-description: 'My career as a Frontend Developer (Profile, Resume, Portfolio and Blog)'
-keywords: 'technology, computing, programming, frontend, developer, code, nelsonsilvadev, nelsonsilva, nelson silva'
-url: 'https://nelsonsilvadev.com'
+title: "Nelson Silva"
+description: "My career as a Frontend Developer (Profile, Resume, Portfolio and Blog)"
+keywords: "technology, computing, programming, frontend, developer, code, nelsonsilvadev, nelsonsilva, nelson silva"
+url: "https://nelsonsilvadev.com"
 
 development: false
 
 community:
-  name: 'Caffeine Algorithm'
-  email: 'nelsonsilvadev@gmail.com'
-  youtube_id: 'UCdt_qK8rmpxrq942ZFIqxvQ'
-  youtube_name: 'CaffeineAlgorithm'
-  linkedin: 'caffeinealgorithm'
-  instagram: 'caffeinealgorithm'
-  twitch: 'caffeinealgorithm'
-  github: 'caffeinealgorithm'
-  website: 'https://caffeinealgorithm.com/'
+  name: "Caffeine Algorithm"
+  email: "nelsonsilvadev@gmail.com"
+  youtube_id: "UCdt_qK8rmpxrq942ZFIqxvQ"
+  youtube_name: "CaffeineAlgorithm"
+  linkedin: "caffeinealgorithm"
+  instagram: "caffeinealgorithm"
+  twitch: "caffeinealgorithm"
+  github: "caffeinealgorithm"
+  website: "https://caffeinealgorithm.com/"
 
 author:
-  name: 'Nelson Silva'
-  username: 'nelsonsilvadev'
-  date_of_birth: 'July 5, 1995'
-  phone_number: '+351913416022'
-  location: 'Porto, Portugal'
-  email: 'nelsonsilvadev@gmail.com'
-  bio: 'Elegant coder, stack versatile, user first.'
-  linkedin: 'nelsonsilvadev'
-  github: 'nelsonsilvadev'
-  instagram: 'nelsonsilvadev'
-  website: 'https://nelsonsilvadev.com/'
+  name: "Nelson Silva"
+  username: "nelsonsilvadev"
+  date_of_birth: "July 5, 1995"
+  location: "Porto, Portugal"
+  email: "nelsonsilvadev@gmail.com"
+  bio: "Elegant coder, stack versatile, user first."
+  linkedin: "nelsonsilvadev"
+  github: "nelsonsilvadev"
+  instagram: "nelsonsilvadev"
+  website: "https://nelsonsilvadev.com/"
 
 google:
-  tag_manager: 'GTM-K6M9N4W'
-  analytics: 'UA-76965623-2'
+  tag_manager: "GTM-K6M9N4W"
+  analytics: "UA-76965623-2"
   # verify: 'ajVPbFZ5Vbuj0FC0vgFM27c4n0WhIuqqUVTlaJuaKVk'
   # ad_client: 'ca-pub-9627952229249296'
 
-google_site_verification: 'ajVPbFZ5Vbuj0FC0vgFM27c4n0WhIuqqUVTlaJuaKVk'
+google_site_verification: "ajVPbFZ5Vbuj0FC0vgFM27c4n0WhIuqqUVTlaJuaKVk"
 
 social:
-  name: 'Nelson Silva'
+  name: "Nelson Silva"
   links:
-    - 'https://github.com/nelsonsilvadev'
-    - 'https://www.linkedin.com/in/nelsonsilvadev'
-    - 'https://www.instagram.com/nelsonsilvadev'
-    - 'https://www.youtube.com/c/CaffeineAlgorithm'
+    - "https://github.com/nelsonsilvadev"
+    - "https://www.linkedin.com/in/nelsonsilvadev"
+    - "https://www.instagram.com/nelsonsilvadev"
+    - "https://www.youtube.com/c/CaffeineAlgorithm"
 
-locale: 'en_US'
+locale: "en_US"
 
 destination: _site
 
-plugins: ['jekyll-paginate', 'jekyll-sitemap', 'jekyll-seo-tag']
-exclude: ['README.md']
+plugins: ["jekyll-paginate", "jekyll-sitemap", "jekyll-seo-tag"]
+exclude: ["README.md"]
