@@ -35,6 +35,8 @@ jobs:
         with:
           source: ./
           destination: ./_site
+      - name: Check pages and local links
+        run: python3 scripts/check-site.py
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
