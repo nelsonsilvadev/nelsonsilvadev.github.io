@@ -1,186 +1,46 @@
 <head>
   <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-  {% if page.id == "categories" %}
-  <meta name="robots" content="noindex" />
-  {% endif %}
-
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, maximum-scale=1"
-  />
-
-  <meta name="msapplication-TileColor" content="#1a1a1a" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#ffffff" />
-
+  <script>
+    try {
+      if (localStorage.getItem("theme") === "dark") document.documentElement.dataset.theme = "dark";
+    } catch (_) {}
+  </script>
   {% seo %}
-
-  <meta
-    name="twitter:description"
-    content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"
-  />
-
-  <meta
-    name="twitter:image"
-    content="{{ '/assets/img/avatar.jpg' | prepend: site.baseurl | prepend: site.url }}"
-  />
-
+  <link
+    rel="icon"
+    href="{{ '/favicon.ico' | relative_url }}?v=photo-round"
+    sizes="16x16 32x32 48x48" />
+  <link
+    rel="icon"
+    href="{{ '/assets/img/favicon.svg' | relative_url }}?v=photo-round"
+    type="image/svg+xml"
+    sizes="any" />
   <link
     rel="apple-touch-icon"
-    sizes="180x180"
-    href="{{ '/assets/img/apple-touch-icon.png' | prepend: site.baseurl | prepend: site.url }}"
-  />
-
-  <link
-    rel="icon"
-    type="image/png"
-    sizes="32x32"
-    href="{{ '/assets/img/favicon-32x32.png' | prepend: site.baseurl | prepend: site.url }}"
-  />
-
-  <link
-    rel="icon"
-    type="image/png"
-    sizes="16x16"
-    href="{{ '/assets/img/favicon-16x16.png' | prepend: site.baseurl | prepend: site.url }}"
-  />
-
-  <link
-    rel="manifest"
-    href="{{ '/assets/img/site.webmanifest' | prepend: site.baseurl | prepend: site.url }}"
-  />
-
-  <link
-    rel="mask-icon"
-    href="{{ '/assets/img/safari-pinned-tab.svg' | prepend: site.baseurl | prepend: site.url }}"
-    color="#1a1a1a"
-  />
-
-  <link
-    rel="shortcut icon"
-    href="{{ '/assets/img/favicon.ico' | prepend: site.baseurl | prepend: site.url }}"
-  />
-
-  <link
-    type="text/css"
-    rel="stylesheet"
-    media="all"
-    href="{{
-      '/assets/fonts/font-awesome/css/font-awesome.min.css'
-        | prepend: site.baseurl
-        | prepend: site.url
-    }}"
-  />
-
-  <link
-    type="text/css"
-    rel="stylesheet"
-    media="all"
-    href="{{
-      '/assets/css/bootstrap.min.css'
-        | prepend: site.baseurl
-        | prepend: site.url
-    }}"
-  />
-
-  <link
-    type="text/css"
-    rel="stylesheet"
-    href="{{
-      '/assets/fancybox/source/jquery.fancybox.min.css?v=2.1.5'
-        | prepend: site.baseurl
-        | prepend: site.url
-    }}"
-    media="screen"
-  />
-
-  <link
-    type="text/css"
-    rel="stylesheet"
-    href="{{
-      '/assets/css/owl.carousel.min.css' | prepend: site.baseurl | prepend: site.url
-    }}"
-  />
-
-  <link
-    type="text/css"
-    rel="stylesheet"
-    href="{{
-      '/assets/css/owl.theme.min.css' | prepend: site.baseurl | prepend: site.url
-    }}"
-  />
-
-  <link
-    type="text/css"
-    rel="stylesheet"
-    media="all"
-    href="{{
-      '/assets/css/animate.min.css' | prepend: site.baseurl | prepend: site.url
-    }}"
-  />
-
-  <link
-    type="text/css"
-    rel="stylesheet"
-    media="all"
-    href="{{
-      '/assets/css/syntax.min.css' | prepend: site.baseurl | prepend: site.url
-    }}"
-  />
-
-  <link
-    type="text/css"
-    rel="stylesheet"
-    media="all"
-    href="{{
-      '/assets/css/style.min.css' | prepend: site.baseurl | prepend: site.url
-    }}"
-  />
-
-  <link
-    type="text/css"
-    rel="stylesheet"
-    media="all"
-    href="{{
-      '/assets/css/theme.min.css' | prepend: site.baseurl | prepend: site.url
-    }}"
-  />
-
-  <link
-    type="text/css"
-    rel="stylesheet"
-    media="all"
-    href="{{
-      '/assets/css/respons.min.css' | prepend: site.baseurl | prepend: site.url
-    }}"
-  />
-
-  {% if site.development == false %} {% if site.google.analytics %}
+    href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}?v=photo-round"
+    sizes="180x180" />
+  <link rel="manifest" href="{{ '/assets/img/site.webmanifest' | relative_url }}?v=photo-round" />
+  <meta
+    name="msapplication-config"
+    content="{{ '/assets/img/browserconfig.xml' | relative_url }}?v=photo-round" />
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}" />
+  {% if jekyll.environment == 'production' and site.google.tag_manager %}
   <script>
     (function (w, d, s, l, i) {
       w[l] = w[l] || [];
-      w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+      w[l].push({
+        "gtm.start": new Date().getTime(),
+        event: "gtm.js",
+      });
       var f = d.getElementsByTagName(s)[0],
         j = d.createElement(s),
-        dl = l != 'dataLayer' ? '&l=' + l : '';
+        dl = l != "dataLayer" ? "&l=" + l : "";
       j.async = true;
-      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
       f.parentNode.insertBefore(j, f);
-    })(
-      window,
-      document,
-      'script',
-      'dataLayer',
-      '{{ site.google.tag_manager }}'
-    );
+    })(window, document, "script", "dataLayer", "{{ site.google.tag_manager }}");
   </script>
-  {% endif %} {% endif %} {% if site.google.ad_client %} {% if site.development
-  == false %}
-  <script
-    async
-    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.google.ad_client }}"
-    crossorigin="anonymous"
-  ></script>
-  {% endif %} {% endif %}
+  {% endif %}
 </head>

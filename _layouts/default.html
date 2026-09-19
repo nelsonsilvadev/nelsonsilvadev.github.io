@@ -1,35 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   {% include head.html %}
-
   <body>
-    <div id="toggle" class="toggle">
-      <div class="moon"></div>
-    </div>
-
-    <script>
-      let theme = localStorage.getItem('theme') || 'light';
-      document.body.className = theme;
-    </script>
-
-    {% if site.development == false %} {% if site.google.analytics %}
+    {% if jekyll.environment == 'production' and site.google.tag_manager %}
     <noscript>
       <iframe
         src="https://www.googletagmanager.com/ns.html?id={{ site.google.tag_manager }}"
         height="0"
         width="0"
         style="display: none; visibility: hidden"
-      >
-      </iframe>
+        title="Google Tag Manager"></iframe>
     </noscript>
-    {% endif %} {% endif %} {% include navigation.html %}
-
-    <div id="contents" class="contents">
-      <div id="wrapper" class="wrapper-card">
-        {% include header.html %} {{ content }} {% include footer.html %}
-      </div>
-    </div>
-
-    {% include scripts.html %}
+    {% endif %}
+    <a class="skip-link" href="#main">Skip to content</a>
+    {% include navigation.html %}
+    <main id="main" tabindex="-1">{{ content }}</main>
+    {% include footer.html %} {% include scripts.html %}
   </body>
 </html>

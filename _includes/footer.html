@@ -1,28 +1,20 @@
-<footer class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-6 col-lg-3">
-        <a href="mailto:{{ site.author.email }}" class="fl-r">
-          <span class="icons">
-            <i class="fa fa-envelope"></i>
-          </span>
-          {{ site.author.email }}
-        </a>
-      </div>
-
-      <div class="col-xs-12 col-sm-6 col-lg-4">
-        <span class="icons">
-          <i class="fa fa-map-marker"></i>
-        </span>
-        {{ site.author.location }}
-      </div>
-
-      <div class="col-xs-12 col-sm-6 col-lg-5 text-right">
-        <span class="copyright fl-r"
-          >{{ site.author.name }} &copy; {{ site.time | date: '%Y' }} All Rights
-          Reserved</span
-        >
-      </div>
+<footer class="site-footer wrap" id="contact">
+  <div class="footer-top">
+    <h2>Get in touch</h2>
+    <a class="email-link" href="mailto:{{ site.author.email }}">
+      {{ site.author.email }}
+      <span aria-hidden="true">↗</span>
+    </a>
+  </div>
+  <div class="footer-bottom">
+    <span>© {{ site.time | date: '%Y' }} Nelson Silva</span>
+    <div>
+      <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/">LinkedIn</a>
     </div>
+    <a href="#main" class="back-top">
+      Back to top
+      <span aria-hidden="true">↑</span>
+    </a>
   </div>
 </footer>

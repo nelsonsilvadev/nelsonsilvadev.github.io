@@ -1,745 +1,89 @@
 ---
 layout: default
-title: Portfolio
-description: Read all the information about my portfolio (community, public projects, private projects, programming series and live sessions).
-keywords: portfolio, information, community, public projects, private projects, programming series, live sessions
+title: Selected work
+section: work
+description: Web and mobile projects by Nelson Silva, including Auramenta for iPhone and Caffeine Algorithm.
 ---
 
-<div class="portfolio-header" id="navportfolio">
-  <header class="head">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-lg-12">
-          <h1 class="title">Portfolio</h1>
-          <h2 class="sub-title">Some Of My Works</h2>
-        </div>
+<section class="page-intro wrap">
+  <h1>Projects</h1>
+  <p>My own apps and websites, alongside some earlier work.</p>
+</section>
+<section class="wrap work-page" aria-label="Projects">
+  <div class="project-collection">
+    {% include auramenta-feature.html heading=2 %}
+
+    <article class="project-card" id="caffeine-algorithm">
+      <div class="project-art caffeine-art">
+        <img
+          src="{{ '/assets/img/portfolio/caffeine-algorithm/logo.webp' | relative_url }}"
+          width="132"
+          height="132"
+          alt="Caffeine Algorithm logo"
+          loading="lazy" />
       </div>
-    </div>
-  </header>
-
-  <div class="portfolio-section padding-block" style="padding-bottom: 15px">
-    <div class="container">
-      <div class="row padding-bottom">
-        <div class="portfolio">
-          <div id="portfolio-grid">
-            <div
-              class="mix col-xs-6 col-sm-4 col-lg-3 portfolio-item category-1"
-              data-value="1"
-            >
-              <div class="within">
-                <picture>
-                  <source
-                    srcset="{{ '/assets/img/portfolio/auramenta/logo.webp' | prepend: site.baseurl | prepend: site.url }}"
-                    type="image/webp"
-                  />
-
-                  <img
-                    src="{{
-                    '/assets/img/portfolio/auramenta/logo.png'
-                      | prepend: site.baseurl
-                      | prepend: site.url
-                  }}"
-                    alt="Auramenta's Logo"
-                    width="268"
-                    height="268"
-                    style="border-radius: 24px"
-                  />
-                </picture>
-
-                <div class="port-item-cont">
-                  <h3 class="title">Auramenta™</h3>
-                  <h4 class="desc">Trademarked Mood Tracking Application</h4>
-
-                  <a
-                    class="fancybox popup-content view-work"
-                    href="#work-0"
-                    rel="mygallery"
-                    >Read More</a
-                  >
-                </div>
-
-                <div class="hidden">
-                  <div class="podrt-desc" id="work-0">
-                    <div class="modal-box-content">
-                      <picture>
-                        <source
-                          srcset="{{ '/assets/img/portfolio/auramenta/cover.webp' | prepend: site.baseurl | prepend: site.url }}"
-                          type="image/webp"
-                        />
-
-                        <img
-                          src="{{
-                          '/assets/img/portfolio/auramenta/cover.png'
-                            | prepend: site.baseurl
-                            | prepend: site.url
-                        }}"
-                          alt="Auramenta's Cover"
-                          width="768"
-                          height="266"
-                          style="border-radius: 24px"
-                        />
-                      </picture>
-
-                      <div class="text">
-                        <p class="title" style="line-height: 32px">
-                          Auramenta™ - Trademarked Mood Tracking Application
-                        </p>
-
-                        <table>
-                          <tr>
-                            <td class="font-weight-m width-td">Started</td>
-                            <td>November, 2023</td>
-                          </tr>
-
-                          <tr>
-                            <td class="font-weight-m">Finished</td>
-                            <td>Present</td>
-                          </tr>
-
-                          <tr>
-                            <td class="font-weight-m width-td">Description</td>
-                            <td>
-                              A mobile application designed to help users
-                              monitor their feelings, understand emotional
-                              patterns and promote positivity. It provides
-                              tailored recommendations and tools for users to
-                              embark on their journey to improved mental
-                              well-being.
-                            </td>
-                          </tr>
-
-                          <tr>
-                            <td class="font-weight-m width-td">Technologies</td>
-                            <td>
-                              Expo, React Native, TypeScript and Google
-                              Firebase.
-                            </td>
-                          </tr>
-
-                          <tr>
-                            <td class="font-weight-m width-td">
-                              Landing Page Technologies
-                            </td>
-                            <td>Next.js, React and TypeScript.</td>
-                          </tr>
-                        </table>
-
-                        <a
-                          href="https://auramenta.com/"
-                          target="_blank"
-                          class="btn btn-color"
-                          >Website</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="mix col-xs-6 col-sm-4 col-lg-3 portfolio-item category-1"
-              data-value="1"
-            >
-              <div class="within">
-                <picture>
-                  <source
-                    srcset="{{ '/assets/img/portfolio/code-sample/logo.webp' | prepend: site.baseurl | prepend: site.url }}"
-                    type="image/webp"
-                  />
-
-                  <img
-                    src="{{
-                    '/assets/img/portfolio/code-sample/logo.png'
-                      | prepend: site.baseurl
-                      | prepend: site.url
-                  }}"
-                    alt="Code Sample's Logo"
-                    width="268"
-                    height="268"
-                    style="border-radius: 24px"
-                  />
-                </picture>
-
-                <div class="port-item-cont">
-                  <h3 class="title">Code Sample</h3>
-                  <h4 class="desc">Code Sharing Platform</h4>
-
-                  <a
-                    class="fancybox popup-content view-work"
-                    href="#work-0"
-                    rel="mygallery"
-                    >Read More</a
-                  >
-                </div>
-
-                <div class="hidden">
-                  <div class="podrt-desc" id="work-0">
-                    <div class="modal-box-content">
-                      <picture>
-                        <source
-                          srcset="{{ '/assets/img/portfolio/code-sample/cover.webp' | prepend: site.baseurl | prepend: site.url }}"
-                          type="image/webp"
-                        />
-
-                        <img
-                          src="{{
-                          '/assets/img/portfolio/code-sample/cover.png'
-                            | prepend: site.baseurl
-                            | prepend: site.url
-                        }}"
-                          alt="Code Sample's Cover"
-                          width="768"
-                          height="266"
-                          style="border-radius: 24px"
-                        />
-                      </picture>
-
-                      <div class="text">
-                        <p class="title" style="line-height: 32px">
-                          Code Sample - Code Sharing Platform
-                        </p>
-
-                        <table>
-                          <tr>
-                            <td class="font-weight-m width-td">Started</td>
-                            <td>July, 2023</td>
-                          </tr>
-
-                          <tr>
-                            <td class="font-weight-m">Finished</td>
-                            <td>Present</td>
-                          </tr>
-
-                          <tr>
-                            <td class="font-weight-m width-td">Description</td>
-                            <td>
-                              A web platform for coders to share code snippets,
-                              solve problems and learn from one another. It
-                              provides smart tools and tailored suggestions to
-                              improve coding skills and fosters a supportive
-                              community for developers at all levels.
-                            </td>
-                          </tr>
-
-                          <tr>
-                            <td class="font-weight-m width-td">Technologies</td>
-                            <td>Next.js, React and TypeScript and MongoDB.</td>
-                          </tr>
-                        </table>
-
-                        <a
-                          href="https://codesample.io/"
-                          target="_blank"
-                          class="btn btn-color"
-                          >Website</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="mix col-xs-6 col-sm-4 col-lg-3 portfolio-item category-1"
-              data-value="1"
-            >
-              <div class="within">
-                <picture>
-                  <source
-                    srcset="{{ '/assets/img/portfolio/caffeine-algorithm/logo.webp' | prepend: site.baseurl | prepend: site.url }}"
-                    type="image/webp"
-                  />
-
-                  <img
-                    src="{{
-                    '/assets/img/portfolio/caffeine-algorithm/logo.png'
-                      | prepend: site.baseurl
-                      | prepend: site.url
-                  }}"
-                    alt="Caffeine Algorithm's Logo"
-                    width="268"
-                    height="268"
-                    style="border-radius: 24px"
-                  />
-                </picture>
-
-                <div class="port-item-cont">
-                  <h3 class="title">Caffeine Algorithm</h3>
-                  <h4 class="desc">Coding Community</h4>
-
-                  <a
-                    class="fancybox popup-content view-work"
-                    href="#work-0"
-                    rel="mygallery"
-                    >Read More</a
-                  >
-                </div>
-
-                <div class="hidden">
-                  <div class="podrt-desc" id="work-0">
-                    <div class="modal-box-content">
-                      <picture>
-                        <source
-                          srcset="{{ '/assets/img/portfolio/caffeine-algorithm/cover.webp' | prepend: site.baseurl | prepend: site.url }}"
-                          type="image/webp"
-                        />
-
-                        <img
-                          src="{{
-                          '/assets/img/portfolio/caffeine-algorithm/cover.png'
-                            | prepend: site.baseurl
-                            | prepend: site.url
-                        }}"
-                          alt="Caffeine Algorithm's Cover"
-                          width="768"
-                          height="266"
-                          style="border-radius: 24px"
-                        />
-                      </picture>
-
-                      <div class="text">
-                        <p class="title" style="line-height: 32px">
-                          Caffeine Algorithm - Coding Community
-                        </p>
-
-                        <table>
-                          <tr>
-                            <td class="font-weight-m width-td">Started</td>
-                            <td>September, 2021</td>
-                          </tr>
-
-                          <tr>
-                            <td class="font-weight-m">Finished</td>
-                            <td>Present</td>
-                          </tr>
-
-                          <tr>
-                            <td class="font-weight-m width-td">Description</td>
-                            <td>
-                              A development community that loves caffeine and
-                              algorithms which wants to help the largest number
-                              of people to know the programming universe, so
-                              that they can, acquire new knowledge and evolve
-                              even more.
-                            </td>
-                          </tr>
-
-                          <tr>
-                            <td class="font-weight-m width-td">Technologies</td>
-                            <td>Next.js, React, TypeScript and Markdown.</td>
-                          </tr>
-
-                          <tr>
-                            <td class="font-weight-m width-td">Content</td>
-                            <td>
-                              Python, C#, Java, Go, JavaScript, Ruby, HTML5,
-                              CSS3 and etc.
-                            </td>
-                          </tr>
-                        </table>
-
-                        <a
-                          href="{{ site.community.website }}"
-                          target="_blank"
-                          class="btn btn-color"
-                          >Website</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="mix col-xs-6 col-sm-4 col-lg-3 portfolio-item category-1"
-              data-value="3"
-            >
-              <div class="within">
-                <picture>
-                  <source
-                    srcset="{{ '/assets/img/portfolio/run-for-it/logo.webp' | prepend: site.baseurl | prepend: site.url }}"
-                    type="image/webp"
-                  />
-
-                  <img
-                    src="{{
-                    '/assets/img/portfolio/run-for-it/logo.png'
-                      | prepend: site.baseurl
-                      | prepend: site.url
-                  }}"
-                    alt="Run For It's Logo"
-                    width="268"
-                    height="268"
-                    style="border-radius: 24px"
-                  />
-                </picture>
-
-                <div class="port-item-cont">
-                  <h3 class="title">Run For It</h3>
-                  <h4 class="desc">Mobile Adventure Game</h4>
-
-                  <a
-                    class="fancybox popup-content view-work"
-                    href="#work-2"
-                    rel="mygallery"
-                    >Read More</a
-                  >
-                </div>
-
-                <div class="hidden">
-                  <div class="podrt-desc" id="work-2">
-                    <div class="modal-box-content">
-                      <picture>
-                        <source
-                          srcset="{{ '/assets/img/portfolio/run-for-it/cover.webp' | prepend: site.baseurl | prepend: site.url }}"
-                          type="image/webp"
-                        />
-
-                        <img
-                          src="{{
-                          '/assets/img/portfolio/run-for-it/cover.png'
-                            | prepend: site.baseurl
-                            | prepend: site.url
-                        }}"
-                          alt="Run For It's Cover"
-                          width="768"
-                          height="376"
-                          style="border-radius: 24px"
-                        />
-                      </picture>
-
-                      <div class="text">
-                        <p class="title" style="line-height: 32px">
-                          Run For It - Mobile Adventure Game
-                        </p>
-
-                        <table>
-                          <tr>
-                            <td class="font-weight-m width-td">Started</td>
-                            <td>July, 2016</td>
-                          </tr>
-
-                          <tr>
-                            <td class="font-weight-m width-td">Finished</td>
-                            <td>March, 2017</td>
-                          </tr>
-
-                          <tr>
-                            <td class="font-weight-m width-td">Description</td>
-                            <td>
-                              A mobile adventure game designed to provide
-                              engaging gameplay experiences, while advancing
-                              skills in game development, Google Play
-                              integration and market navigation.
-                            </td>
-                          </tr>
-
-                          <tr>
-                            <td class="font-weight-m width-td">Technologies</td>
-                            <td>
-                              Unity, Unity Ads, Google Play Games, C# and XML.
-                            </td>
-                          </tr>
-                        </table>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="mix col-xs-6 col-sm-4 col-lg-3 portfolio-item category-1"
-              data-value="2"
-            >
-              <div class="within">
-                <picture>
-                  <source
-                    srcset="{{ '/assets/img/portfolio/eventdash/logo.webp' | prepend: site.baseurl | prepend: site.url }}"
-                    type="image/webp"
-                  />
-
-                  <img
-                    src="{{
-                    '/assets/img/portfolio/eventdash/logo.png'
-                      | prepend: site.baseurl
-                      | prepend: site.url
-                  }}"
-                    alt="Eventdash's Logo"
-                    width="268"
-                    height="268"
-                    style="border-radius: 24px"
-                  />
-                </picture>
-
-                <div class="port-item-cont">
-                  <h3 class="title">Eventdash</h3>
-                  <h4 class="desc">Gamification Platform</h4>
-
-                  <a
-                    class="fancybox popup-content view-work"
-                    href="#work-1"
-                    rel="mygallery"
-                    >Read More</a
-                  >
-                </div>
-
-                <div class="hidden">
-                  <div class="podrt-desc" id="work-1">
-                    <div class="modal-box-content">
-                      <picture>
-                        <source
-                          srcset="{{ '/assets/img/portfolio/eventdash/cover.webp' | prepend: site.baseurl | prepend: site.url }}"
-                          type="image/webp"
-                        />
-
-                        <img
-                          src="{{
-                          '/assets/img/portfolio/eventdash/cover.png'
-                            | prepend: site.baseurl
-                            | prepend: site.url
-                        }}"
-                          alt="Eventdash's Cover"
-                          width="768"
-                          height="266"
-                          style="border-radius: 24px"
-                        />
-                      </picture>
-
-                      <div class="text">
-                        <p class="title" style="line-height: 32px">
-                          Eventdash - Gamification Platform
-                        </p>
-
-                        <table>
-                          <tr>
-                            <td class="font-weight-m width-td">Started</td>
-                            <td>September, 2016</td>
-                          </tr>
-
-                          <tr>
-                            <td class="font-weight-m width-td">Finished</td>
-                            <td>February, 2017</td>
-                          </tr>
-
-                          <tr>
-                            <td class="font-weight-m width-td">Description</td>
-                            <td>
-                              A platform to increase the interactivity in
-                              relation to the given event and through the use of
-                              gamification.
-                            </td>
-                          </tr>
-
-                          <tr>
-                            <td class="font-weight-m width-td">Technologies</td>
-                            <td>
-                              Ionic, Angular, TypeScript and Google Firebase.
-                            </td>
-                          </tr>
-                        </table>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="mix col-xs-6 col-sm-4 col-lg-3 portfolio-item category-2"
-              data-value="4"
-            >
-              <div class="within">
-                <picture>
-                  <source
-                    srcset="{{ '/assets/img/portfolio/learn-with-the-robot/logo.webp' | prepend: site.baseurl | prepend: site.url }}"
-                    type="image/webp"
-                  />
-
-                  <img
-                    src="{{
-                    '/assets/img/portfolio/learn-with-the-robot/logo.png'
-                      | prepend: site.baseurl
-                      | prepend: site.url
-                  }}"
-                    alt="Learn With The Robot's Logo"
-                    width="268"
-                    height="268"
-                    style="border-radius: 24px"
-                  />
-                </picture>
-
-                <div class="port-item-cont">
-                  <h3 class="title">LWTR</h3>
-                  <h4 class="desc">Educational Platform</h4>
-
-                  <a
-                    class="fancybox popup-content view-work"
-                    href="#work-3"
-                    rel="mygallery"
-                    >Read More</a
-                  >
-                </div>
-
-                <div class="hidden">
-                  <div class="podrt-desc" id="work-3">
-                    <div class="modal-box-content">
-                      <picture>
-                        <source
-                          srcset="{{ '/assets/img/portfolio/learn-with-the-robot/cover.webp' | prepend: site.baseurl | prepend: site.url }}"
-                          type="image/webp"
-                        />
-
-                        <img
-                          src="{{
-                          '/assets/img/portfolio/learn-with-the-robot/cover.png'
-                            | prepend: site.baseurl
-                            | prepend: site.url
-                        }}"
-                          alt="Learn With The Robot's Cover"
-                          width="768"
-                          height="373"
-                          style="border-radius: 24px"
-                        />
-                      </picture>
-
-                      <div class="text">
-                        <p class="title" style="line-height: 32px">
-                          Learn With The Robot - Educational Platform
-                        </p>
-
-                        <table>
-                          <tr>
-                            <td class="font-weight-m width-td">Started</td>
-                            <td>June, 2015</td>
-                          </tr>
-
-                          <tr>
-                            <td class="font-weight-m width-td">Finished</td>
-                            <td>May, 2016</td>
-                          </tr>
-
-                          <tr>
-                            <td class="font-weight-m width-td">Description</td>
-                            <td>
-                              An educational platform for kids to increase
-                              knowledge regarding school matters (6 different
-                              games for each grade).
-                            </td>
-                          </tr>
-
-                          <tr>
-                            <td class="font-weight-m width-td">Technologies</td>
-                            <td>C#, XAML, SQLite and Entity Framework.</td>
-                          </tr>
-                        </table>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              class="mix col-xs-6 col-sm-4 col-lg-3 portfolio-item category-2"
-              data-value="5"
-            >
-              <div class="within">
-                <picture>
-                  <source
-                    srcset="{{ '/assets/img/portfolio/human-blocks/logo.webp' | prepend: site.baseurl | prepend: site.url }}"
-                    type="image/webp"
-                  />
-
-                  <img
-                    src="{{
-                    '/assets/img/portfolio/human-blocks/logo.png'
-                      | prepend: site.baseurl
-                      | prepend: site.url
-                  }}"
-                    alt="Human Blocks's Logo"
-                    width="268"
-                    height="268"
-                    style="border-radius: 24px"
-                  />
-                </picture>
-
-                <div class="port-item-cont">
-                  <h3 class="title">Human Blocks</h3>
-                  <h4 class="desc">Survival Game</h4>
-
-                  <a
-                    class="fancybox popup-content view-work"
-                    href="#work-4"
-                    rel="mygallery"
-                    >Read More</a
-                  >
-                </div>
-
-                <div class="hidden">
-                  <div class="podrt-desc" id="work-4">
-                    <div class="modal-box-content">
-                      <picture>
-                        <source
-                          srcset="{{ '/assets/img/portfolio/human-blocks/cover.webp' | prepend: site.baseurl | prepend: site.url }}"
-                          type="image/webp"
-                        />
-
-                        <img
-                          src="{{
-                          '/assets/img/portfolio/human-blocks/cover.png'
-                            | prepend: site.baseurl
-                            | prepend: site.url
-                        }}"
-                          alt="Human Blocks's Cover"
-                          width="768"
-                          height="373"
-                          style="border-radius: 24px"
-                        />
-                      </picture>
-
-                      <div class="text">
-                        <p class="title" style="line-height: 32px">
-                          Human Blocks - Survival Game
-                        </p>
-
-                        <table>
-                          <tr>
-                            <td class="font-weight-m width-td">Started</td>
-                            <td>October, 2014</td>
-                          </tr>
-
-                          <tr>
-                            <td class="font-weight-m width-td">Finished</td>
-                            <td>April, 2015</td>
-                          </tr>
-
-                          <tr>
-                            <td class="font-weight-m width-td">Description</td>
-                            <td>
-                              A survival game that I developed to understand
-                              game engines and that gave me important notions
-                              regarding the universe of game development.
-                            </td>
-                          </tr>
-
-                          <tr>
-                            <td class="font-weight-m width-td">Technologies</td>
-                            <td>C#, XAML, SQLite and Entity Framework.</td>
-                          </tr>
-                        </table>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="project-card-copy">
+        <p class="eyebrow">Programming education / Since 2021</p>
+        <h2>Caffeine Algorithm</h2>
+        <p>
+          A website for sharing programming lessons and helping other developers learn. Covers
+          languages including Python, C#, Java, Go and JavaScript.
+        </p>
+        <ul class="tags">
+          <li>Next.js</li>
+          <li>React</li>
+          <li>TypeScript</li>
+          <li>Markdown</li>
+        </ul>
+        <a class="text-link" href="https://caffeinealgorithm.com/">
+          Visit website
+          <span aria-hidden="true">↗</span>
+        </a>
       </div>
-    </div>
+    </article>
+    <article class="project-card" id="run-for-it">
+      <div class="project-art game-art">
+        <img
+          src="{{ '/assets/img/portfolio/run-for-it/cover.webp' | relative_url }}"
+          width="768"
+          height="376"
+          alt="Run For It mobile adventure game"
+          loading="lazy" />
+      </div>
+      <div class="project-card-copy">
+        <p class="eyebrow">Mobile game / 2016 - 2017</p>
+        <h2>Run For It</h2>
+        <p>
+          A mobile adventure game I developed with Unity and C#. It gave me hands-on experience with
+          game development, Unity Ads and Google Play Games integration.
+        </p>
+        <ul class="tags">
+          <li>Unity</li>
+          <li>C#</li>
+          <li>Google Play Games</li>
+        </ul>
+      </div>
+    </article>
   </div>
-</div>
+  <div class="archive-heading">
+    <h2>Earlier projects</h2>
+  </div>
+  <div class="archive-grid">
+    <article>
+      <h3>Code Sample</h3>
+      <p>A code-sharing platform built with Next.js, React, TypeScript and MongoDB.</p>
+    </article>
+    <article>
+      <h3>Eventdash</h3>
+      <p>An event gamification platform built with Ionic, Angular, TypeScript and Firebase.</p>
+    </article>
+    <article>
+      <h3>Learn With The Robot</h3>
+      <p>Educational games for schoolchildren, built with C#, XAML, SQLite and Entity Framework.</p>
+    </article>
+    <article>
+      <h3>Human Blocks</h3>
+      <p>An early survival game and a way to learn the foundations of game development.</p>
+    </article>
+  </div>
+</section>

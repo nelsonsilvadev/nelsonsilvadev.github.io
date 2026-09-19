@@ -1,0 +1,59 @@
+<article class="featured-project">
+  <div class="featured-copy">
+    <div class="project-heading">
+      <img
+        class="app-icon"
+        src="{{ '/assets/img/auramenta/app-icon.png' | relative_url }}"
+        width="60"
+        height="60"
+        alt=""
+        loading="lazy" />
+      <div>
+        <p class="eyebrow">Independent project</p>
+        {% if include.heading == 2 %}
+        <h2 class="featured-title">Auramenta</h2>
+        {% else %}
+        <h3 class="featured-title">Auramenta</h3>
+        {% endif %}
+      </div>
+    </div>
+    <p>A private journal for iPhone that I built with React Native and Expo.</p>
+    <ul class="project-details">
+      <li>SQLite for journal data, with support for photos and voice notes.</li>
+      <li>On-device text analysis, mood tracking and encrypted iCloud backups.</li>
+      <li>RevenueCat subscriptions, automated tests and releases through EAS.</li>
+    </ul>
+    <div class="actions">
+      <a class="button button-light" href="{{ '/work/auramenta.html' | relative_url }}">
+        About the development
+        <span aria-hidden="true">↗</span>
+      </a>
+      <a
+        class="text-link"
+        href="https://apps.apple.com/us/app/auramenta-private-journal/id6467466490">
+        App Store
+        <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </div>
+  <div class="app-showcase" aria-label="Auramenta screenshots">
+    <figure>
+      <img
+        src="{{ '/assets/img/auramenta/journal.avif' | relative_url }}"
+        width="320"
+        height="639"
+        loading="lazy"
+        alt="Auramenta journal editor on iPhone" />
+      <figcaption>Journal editor</figcaption>
+    </figure>
+    <figure>
+      <img
+        src="{{ '/assets/img/auramenta/patterns.avif' | relative_url }}"
+        width="320"
+        height="639"
+        loading="lazy"
+        alt="Auramenta showing recurring words in journal entries" />
+      <figcaption>Recurring words</figcaption>
+    </figure>
+  </div>
+</article>

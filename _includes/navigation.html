@@ -1,45 +1,50 @@
-{% assign active = page.url | downcase | split: '/' %}
-
-<div class="navbar-wrapper" role="navigation">
-  <div class="container navigation-top">
-    <div class="navwrapper">
-      <div class="navbar navbar-inverse navbar-static-top">
-        <div class="navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="menuItem {% if active[1] == null %}active{% endif %}">
-              <a href="/">Profile</a>
-            </li>
-
-            <li
-              class="menuItem {% if active[1] == 'resume.html' %}active{% endif %}"
-            >
-              <a
-                href="{{
-                  '/resume' | prepend: site.baseurl | prepend: site.url
-                }}"
-              >
-                Resume
-              </a>
-            </li>
-
-            <li
-              class="menuItem {% if active[1] == 'portfolio.html' %}active{% endif %}"
-            >
-              <a
-                href="{{
-                  '/portfolio' | prepend: site.baseurl | prepend: site.url
-                }}"
-              >
-                Portfolio
-              </a>
-            </li>
-
-            <li class="menuItem">
-              <a href="https://caffeinealgorithm.com/" target="_blank">Blog</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
+<header class="header-shell">
+  <div class="site-header wrap">
+    <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Nelson Silva, home">
+      <span class="brand-name">Nelson Silva</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a
+        href="{{ '/portfolio.html' | relative_url }}"
+        aria-current="{% if page.section == 'work' %}page{% else %}false{% endif %}">
+        Work
+      </a>
+      <a
+        href="{{ '/resume.html' | relative_url }}"
+        aria-current="{% if page.section == 'resume' %}page{% else %}false{% endif %}">
+        Resume
+      </a>
+      <a href="#contact">Contact</a>
+      <button
+        class="theme-toggle"
+        type="button"
+        aria-label="Use dark theme"
+        aria-pressed="false"
+        hidden>
+        <svg
+          class="moon-icon"
+          width="19"
+          height="19"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+          aria-hidden="true">
+          <path d="M20.3 14A8.5 8.5 0 0 1 10 3.7 8.5 8.5 0 1 0 20.3 14Z" />
+        </svg>
+        <svg
+          class="sun-icon"
+          width="19"
+          height="19"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.6"
+          aria-hidden="true">
+          <circle cx="12" cy="12" r="4" />
+          <path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5" />
+        </svg>
+      </button>
+    </nav>
   </div>
-</div>
+</header>
