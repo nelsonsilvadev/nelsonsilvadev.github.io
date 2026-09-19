@@ -1,0 +1,77 @@
+- company: IMPACT Commerce
+  role: Frontend Developer
+  period: Jan 2024 - Jul 2026
+  location: Remote
+  description: Developed e-commerce storefronts and client integrations with React, Next.js, TypeScript and GraphQL.
+  stack: [React, Next.js, TypeScript, GraphQL, Redux, Sass]
+- company: RelocationOnline, Inc.
+  role: Full Stack Developer
+  period: Apr 2023 - Sep 2023
+  location: Remote
+  description: Worked on a platform for relocation service providers, across the React frontend and Ruby on Rails backend. Used Cypress for testing.
+  stack:
+    [
+      React,
+      TypeScript,
+      Redux,
+      Tailwind CSS,
+      Ruby on Rails,
+      PostgreSQL,
+      Cypress,
+    ]
+- company: Noona
+  role: Full Stack Developer
+  period: Jan 2022 - Mar 2023
+  location: Remote
+  description: Worked on a platform connecting customers with local businesses, using React and TypeScript with GraphQL APIs, Go and MongoDB. Used Cypress for testing.
+  stack:
+    [
+      React,
+      TypeScript,
+      Meteor,
+      Apollo,
+      GraphQL,
+      Redux,
+      MobX,
+      Go,
+      MongoDB,
+      Cypress,
+    ]
+- company: InterNations GO!
+  role: Frontend Developer
+  period: Feb 2019 - Nov 2021
+  location: Matosinhos, Portugal
+  description: Developed the frontend of a relocation services platform with Vue and TypeScript. Used MobX for state management and Cypress for testing.
+  stack: [Vue, TypeScript, MobX, Sass, Foundation, Cypress]
+- company: git//scale
+  role: Full Stack/Blockchain Developer
+  period: Aug 2018 - Dec 2018
+  location: Porto, Portugal
+  description: Worked on a code analytics platform for open-source projects, using React and GraphQL with PostgreSQL and PostGraphile.
+  stack:
+    [
+      React,
+      Apollo,
+      GraphQL,
+      PostgreSQL,
+      PostGraphile,
+      Sass,
+      Ant Design,
+    ]
+- company: Weissmaler GmbH
+  role: Frontend Developer
+  period: Aug 2017 - Oct 2018
+  location: Matosinhos, Portugal
+  description: Developed the frontend of a platform for finding painters. Worked with React and GraphQL, alongside Ruby on Rails, PostgreSQL and Cypress.
+  stack:
+    [
+      React,
+      Relay,
+      GraphQL,
+      Flow,
+      MobX,
+      Ruby on Rails,
+      PostgreSQL,
+      PostGIS,
+      Cypress,
+    ]

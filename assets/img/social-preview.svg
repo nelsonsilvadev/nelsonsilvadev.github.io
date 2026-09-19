@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fff"/>
+  <defs><clipPath id="portrait"><rect x="830" y="170" width="302" height="302" rx="16"/></clipPath></defs>
+  <image href="nelson-silva.png" x="830" y="170" width="302" height="302" clip-path="url(#portrait)"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="68" y="83" fill="#262b33" font-size="28" font-weight="700" letter-spacing="-1">Nelson Silva</text>
+    <path d="M68 143h1064" stroke="#e3e8ef" stroke-width="2"/>
+    <text x="68" y="277" fill="#262b33" font-size="48" font-weight="700" letter-spacing="-1.5">Frontend developer.</text>
+    <text x="68" y="357" fill="#0875c9" font-size="54" font-weight="700" letter-spacing="-2">React &amp; React Native.</text>
+    <path d="M68 523h1064" stroke="#e3e8ef" stroke-width="2"/>
+    <text x="68" y="574" fill="#262b33" font-size="20">nelsonsilvadev.com</text>
+    <text x="1132" y="574" text-anchor="end" fill="#616b79" font-size="20">Based in Portugal</text>
+  </g>
+</svg>

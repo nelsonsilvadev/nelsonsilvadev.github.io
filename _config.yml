@@ -1,52 +1,37 @@
-title: "Nelson Silva"
-description: "My career as a Frontend Developer (Profile, Resume, Portfolio and Blog)"
-keywords: "technology, computing, programming, frontend, developer, code, nelsonsilvadev, nelsonsilva, nelson silva, nelson"
-url: "https://nelsonsilvadev.com"
-
-development: false
-
-community:
-  name: "Caffeine Algorithm"
-  email: "nelsonsilvadev@gmail.com"
-  youtube_id: "UCdt_qK8rmpxrq942ZFIqxvQ"
-  youtube_name: "CaffeineAlgorithm"
-  linkedin: "caffeinealgorithm"
-  instagram: "caffeinealgorithm"
-  twitch: "caffeinealgorithm"
-  github: "caffeinealgorithm"
-  website: "https://caffeinealgorithm.com/"
-
+title: Nelson Silva
+description: Frontend developer working with React, Next.js and TypeScript. Founder of Auramenta, a private journal for iPhone built with React Native and Expo.
+url: https://nelsonsilvadev.com
+baseurl: ""
+locale: en_GB
 author:
-  name: "Nelson Silva"
-  username: "nelsonsilvadev"
-  date_of_birth: "July 5, 1995"
-  location: "Porto, Portugal"
-  email: "nelsonsilvadev@gmail.com"
-  bio: "Elegant coder, stack versatile, user first."
-  linkedin: "nelsonsilvadev"
-  github: "nelsonsilvadev"
-  instagram: "nelsonsilvadev"
-  website: "https://nelsonsilvadev.com/"
-
-google:
-  tag_manager: "GTM-K6M9N4W"
-  analytics: "UA-76965623-2"
-  # verify: 'ajVPbFZ5Vbuj0FC0vgFM27c4n0WhIuqqUVTlaJuaKVk'
-  # ad_client: 'ca-pub-9627952229249296'
-
-google_site_verification: "ajVPbFZ5Vbuj0FC0vgFM27c4n0WhIuqqUVTlaJuaKVk"
-
+  name: Nelson Silva
+  email: nelsonsilvadev@gmail.com
+  location: Póvoa de Varzim, Portugal
+  github: nelsonsilvadev
+  linkedin: nelsonsilvadev
 social:
-  name: "Nelson Silva"
+  name: Nelson Silva
   links:
-    - "https://github.com/nelsonsilvadev"
-    - "https://www.linkedin.com/in/nelsonsilvadev"
-    - "https://www.instagram.com/nelsonsilvadev"
-    - "https://www.youtube.com/c/CaffeineAlgorithm"
-
-locale: "en_US"
-
+    - https://github.com/nelsonsilvadev
+    - https://www.linkedin.com/in/nelsonsilvadev
+google_site_verification: ajVPbFZ5Vbuj0FC0vgFM27c4n0WhIuqqUVTlaJuaKVk
+google:
+  tag_manager: GTM-K6M9N4W
+plugins: [jekyll-sitemap, jekyll-seo-tag]
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/social-preview.png
 destination: _site
-
-plugins: ["jekyll-paginate", "jekyll-sitemap", "jekyll-seo-tag"]
-exclude: ["README.md"]
+exclude:
+  [
+    README.md,
+    Gemfile,
+    Gemfile.lock,
+    scripts,
+    docs,
+    output,
+    tmp,
+    vendor,
+  ]
