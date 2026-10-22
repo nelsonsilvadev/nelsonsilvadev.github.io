@@ -24,6 +24,8 @@ defaults:
     values:
       image: /assets/img/social-preview.png
 destination: _site
+include:
+  - .well-known
 exclude:
   [
     README.md,
