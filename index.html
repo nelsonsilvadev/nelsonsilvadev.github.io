@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Frontend Developer, React & React Native
-description: Nelson Silva, frontend developer based in Portugal. React, Next.js and TypeScript experience, and the founder of Auramenta for iPhone.
+description: Nelson Silva, frontend developer in Portugal working with React, Next.js and TypeScript. Founder of Auramenta for iPhone, iPad, Android and Mac.
 ---
 
 <section class="hero wrap" id="about" aria-labelledby="hero-title">
@@ -18,7 +18,7 @@ description: Nelson Silva, frontend developer based in Portugal. React, Next.js 
     </p>
     <p class="hero-location">Based in Póvoa de Varzim, Portugal.</p>
     <div class="actions">
-      <a class="button" href="{{ '/assets/Nelson-Silva-Resume.pdf' | relative_url }}" download>
+      <a class="button" href="{{ '/assets/Nelson-Silva-Resume-public.pdf' | relative_url }}" download="Nelson-Silva-Resume.pdf">
         Download resume
         <span aria-hidden="true">↓</span>
       </a>
@@ -30,9 +30,17 @@ description: Nelson Silva, frontend developer based in Portugal. React, Next.js 
   </div>
   <img
     class="hero-portrait"
-    src="{{ '/assets/img/nelson-silva.png' | relative_url }}"
-    width="1254"
-    height="1254"
+    src="{{ '/assets/img/nelson-silva-560.webp' | relative_url }}"
+    srcset="
+      {{ '/assets/img/nelson-silva-192.webp' | relative_url }} 192w,
+      {{ '/assets/img/nelson-silva-320.webp' | relative_url }} 320w,
+      {{ '/assets/img/nelson-silva-440.webp' | relative_url }} 440w,
+      {{ '/assets/img/nelson-silva-560.webp' | relative_url }} 560w,
+      {{ '/assets/img/nelson-silva-840.webp' | relative_url }} 840w
+    "
+    sizes="(max-width: 600px) 96px, (max-width: 820px) 190px, (max-width: 960px) 220px, 280px"
+    width="560"
+    height="560"
     alt="Nelson Silva"
     fetchpriority="high" />
 </section>

@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Auramenta, a React Native app for iPhone
+title: Auramenta for iPhone, iPad, Android and Mac
 section: work
-description: How Nelson Silva built Auramenta with React Native and Expo, including local journaling, on-device analysis, iCloud backup, subscriptions and App Store delivery.
+description: How Nelson Silva built Auramenta for iPhone, iPad, Android and Mac with React Native and Expo, from on-device journaling to releases on both stores.
 ---
 
 <section class="page-intro case-intro wrap">
@@ -10,12 +10,19 @@ description: How Nelson Silva built Auramenta with React Native and Expo, includ
     <span aria-hidden="true">←</span>
     All work
   </a>
-  <p class="eyebrow">Founder & Developer · Nov 2023 - Present</p>
+  <p class="eyebrow">Founder & Developer since November 2023</p>
   <h1>Auramenta</h1>
-  <p>A private journal for iPhone, built with React Native, Expo and TypeScript.</p>
+  <p>
+    I built this private journal and mood tracker with React Native, Expo and TypeScript.
+    It's available on {{ site.auramenta.platforms }}.
+  </p>
   <div class="actions">
-    <a class="button" href="https://apps.apple.com/us/app/auramenta-private-journal/id6467466490">
+    <a class="button" href="{{ site.auramenta.app_store }}">
       View on the App Store
+      <span aria-hidden="true">↗</span>
+    </a>
+    <a class="button" href="{{ site.auramenta.google_play }}">
+      View on Google Play
       <span aria-hidden="true">↗</span>
     </a>
     <a class="button button-outline" href="https://auramenta.com/">
@@ -71,12 +78,12 @@ description: How Nelson Silva built Auramenta with React Native and Expo, includ
       <article>
         <h3>Backup and subscriptions</h3>
         <p>
-          Encrypted iCloud backup and restore, plus RevenueCat subscriptions and purchase
-          restoration.
+          Auramenta+ includes optional encrypted backup and restore through iCloud on Apple devices
+          and Google Drive on Android. I used RevenueCat for subscriptions and purchase restoration.
         </p>
       </article>
       <article>
-        <h3>The mobile interface</h3>
+        <h3>The app interface</h3>
         <p>
           Reusable components, navigation and animations built with Redux Toolkit, React Navigation
           and Reanimated.
@@ -85,8 +92,8 @@ description: How Nelson Silva built Auramenta with React Native and Expo, includ
       <article>
         <h3>Testing and releases</h3>
         <p>
-          Automated tests with Jest and React Native Testing Library. EAS Build and EAS Update for
-          building and delivering the app.
+          Automated tests with Jest and React Native Testing Library. I used EAS Build for App Store
+          and Google Play releases, and EAS Update to deliver updates.
         </p>
       </article>
     </div>

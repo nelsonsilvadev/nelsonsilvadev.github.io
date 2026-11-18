@@ -24,6 +24,9 @@ class Page(HTMLParser):
         if tag=='link' and attrs.get('rel')=='canonical': self.canonical=True
         for key in ('href','src'):
             if attrs.get(key): self.links.append(attrs[key])
+        if tag in ('img', 'source') and attrs.get('srcset'):
+            for candidate in attrs['srcset'].split(','):
+                if candidate.strip(): self.links.append(candidate.split()[0])
         if tag=='img' and ('alt' not in attrs or 'width' not in attrs or 'height' not in attrs):
             self.image_errors.append(attrs.get('src','unknown'))
 
@@ -52,10 +55,17 @@ for file,page in pages.items():
     text=file.read_text()
     if re.search(r'\{[{%]',text): errors.append(f'{rel}: unrendered template')
     if '—' in text or '–' in text: errors.append(f'{rel}: unwanted long dash')
-if not (ROOT/'assets/Nelson-Silva-Resume.pdf').read_bytes().startswith(b'%PDF-'):
-    errors.append('Resume is not a PDF')
+resume_pdf = ROOT/'assets/Nelson-Silva-Resume-public.pdf'
+if not resume_pdf.is_file() or not resume_pdf.read_bytes().startswith(b'%PDF-'):
+    errors.append('Missing or invalid public resume PDF')
+for pdf in ROOT.rglob('*.pdf'):
+    if pdf != resume_pdf:
+        errors.append(f'Build exposes an unapproved PDF: {pdf.relative_to(ROOT)}')
+for name in ('page-1.webp', 'page-2.webp'):
+    if (ROOT/'assets/img/resume'/name).exists():
+        errors.append(f'Build exposes an obsolete resume preview: {name}')
 for excluded in ('docs','scripts','output','tmp'):
     if (ROOT/excluded).exists(): errors.append(f'Build leaks excluded {excluded} directory')
 if errors:
     raise SystemExit('\n'.join(errors))
-print(f'Passed: {len(pages)} pages, {checked} local references, metadata, headings, image attributes and PDF signature.')
+print(f'Passed: {len(pages)} pages, {checked} local references, metadata, headings, image attributes, public PDF and no obsolete resume assets.')
